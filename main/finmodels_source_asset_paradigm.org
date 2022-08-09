@@ -1,67 +1,70 @@
 :PROPERTIES:
 :ID:       60dc70e2-c275-465f-8111-146d4af30a20
 :END:
-#+title: FinModels Source/Asset Paradigm
+#+title: FinModels Main
 #+filetags: :paradigm:structure:finmodels:
+* Paradigm
+sources/flows/forecasts -> assets/forecasts -> models
 
-- present paradigm per 2022/07/09
-- basic function may result to maintaining multiple test models and good model as validations, forecasts, etc need to be tested but also do nto want to curate white/blacklists of either when assessing effectiveness of model
-- new cashflows paradigm
-  - parent object 'component' of asset and flow objects
+* Dev
+- how to deal with limits/validations
+- this ties in to the whole evaluation thing which im really not sure what that means yet
+- aka how does a model fail? source limits? asset limits? something of that type idk
 
 * Models
-- validation pairs as objects
-- assets
-- forecasts
-- eventuallly batch sourceing of similar sources that can support batching to increase spead
 
-** Assets
+** Notes
 
-*** Notes
-- x and y columns in data ONLY
-- sampling
-- can assets be thought of as modfied sources? refined sources? - YES
+** Function
+- sample/evaluate assets
 
-*** Function
-- does not need a forecast, asset forecast is applied independantly of assigned Flows
+* Assets
+
+** Notes
+- x and y columns in 
+- uniform sampling of flows and sources at dates requested
+
+** Function
+- the asset source can have its own forecast, this DOES NOT replace the flow forecasts, but instead forecasts the value of the source AS IF THERE WAS NO FLOW
 - Flows assigned to assets to outline inputs and outputs of the asset using known data or forecasted trends
+- asset value is obtained via the source
 
-** Component
-- parent to Flow and Asset objects
+* Flow
+- flow is basically a source, that is limited to future/forecast data
+- flow cannot exist in the past because the flow has already flowed, if you get my drift
+- aka the asset source contains all past flows
 
-*** Function
-- sampling, interpolating, normalization, forecasting  infrastructure
+** Notes
+- flows are assgined to assets inflows or outflows
+- flows exist independantly of the model 
 
-** Flow
-
-*** Notes
-- flow objects must be assigned in and out - similar to asset in theroy but not in concept? NO
-- only flow objects assigned to an asset will be evaluated by the model in net validations, flow objects can be used to validate other flows/assets whilst not having assigned in/out params, and will be ignored otherwise by model 
-
-*** Function
+** Function
 - increased granularity for asset forecasting
 - assigned to an asset in and out
 - describes movement of value
 
-** Validation
+* Validation - do we need validation
 - pairs of assets or flows
 - simple pass fail option
 - difference output option
 - both option via model validation funcs
 
-** Forecasts
-[[id:eda4973e-c4c5-4d47-8bc8-e6cd3a98e428][finmodels_forecasts]]
-- forecasts are a property of each asset
+* Forecasts
+[[id:eda4973e-c4c5-4d47-8bc8-e6cd3a98e428][finmodels_forecasts
+]]
+** Function
+- forecasts are a property of each source or asset
 - forecast can use multiple sources as indexes?
 - standardize pipeline for using various forcasting packages
 - standalone object that is configured prior to interacting with other objects
 - store in model??
 - some sort of capability to assess accuracy/effectiveness of model
 
-*** Sources
+* Sources
 [[id:7efe7a45-0384-4eb4-ae99-65aaeac440a5][finmodels_sources]]
+- flows are basically sources limited to future
 - sources of data such as sql, online source, etc
-- purely pipelines to deliver information in a range
+- purely pipelines to deliver information in a requested range
 
 * Ideas
 - could someday integrate with emacs by defining standard capture templates for model components?
