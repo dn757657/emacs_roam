@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       110111e8-5dcb-4b1e-9cb1-d560f62e1046
+:ROAM_REFS: cite:zhangChemicalCompositionToxicity2019
+:END:
+#+title: Chemical Composition and Toxicity of Particles Emitted from a Consumer-Level 3D Printer Using Various Materials
+#+filetags: :ref:
+
+* Obs
+- emits small particulate (ultrafine <1micron)
+- emits VOCs
+
+* Params
+- high temp means more emmitted particles potentially
+- feed rate
+- filament type
+- color
+
+* Conclusions
+- 3D printing emissions are not benign and should be mitigated
+- harmful, yes in both cellular level hard through ingesting nano/ultrafine particles annd potential for oxidative particles to harm organns
+- nothing pertaining to suggested methods of mitigation

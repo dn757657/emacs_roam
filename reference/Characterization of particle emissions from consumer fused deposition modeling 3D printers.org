@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       651ba6a3-81a3-46be-a1ec-7d8bb681e33f
+:ROAM_REFS: cite:zhangCharacterizationParticleEmissions2017
+:END:
+#+title: Characterization of particle emissions from consumer fused deposition modeling 3D printers
+#+filetags: :ref:
+
