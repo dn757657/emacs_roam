@@ -1,3 +1,10 @@
 *.org#
 *.org~
 *.org#
+*.bib
+*.tex~
+*.tex#
+*.aux
+*.out
+*.log
+*.toc

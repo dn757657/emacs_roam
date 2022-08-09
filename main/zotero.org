@@ -1,0 +1,24 @@
+
+:PROPERTIES:
+:ID:       d2399322-c83b-4117-97ff-6a086875d195
+:END:
+#+title: zotero
+#+filetags: :emacs:setup:biblio:zotero:
+
+* Notes
+- download xpi file and add using package manager within zotaro (add-ons)
+
+* Setup
+** better bibtex
+- install better bibtex and export to roam home directory
+- ensure org roam is pointed to better bibtex .bib file
+- set better bibtex within zotaro to export to roam directory
+- need mathicn file location and file name for recognition
+  
+** zotfile
+- configure zotfile to dump pdf references in directory within emacs config (.emacs)
+- need to set naming convention to match better bibtex cite key so that emacs can find pdf files
+- in zotfile preferences (via zotaro)
+  - set custom location in 'general settings' as location where references will be accessed via emacs (or you)
+  - must be mapped in emacs setup
+  - set 'format for all Item Types except Patents' as {%b} to match citekey (this way emacs can find them using ORB or ivy-bibtex not sure)

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3e1740f5-fc1e-4725-8a51-c262fe013ad7
+:END:
+#+title: auctex basics
+#+filetags: :emacs:auctex:
+
+* Resrouces
+[cite:@n.nSimpletonGuideTeX2012]
+
+* Libs
+
+** Reftex
+- used for managing citations within latex docs
+
+** Auctex
+
+*** Commands
+- C-c C-c for compiling and viewing and exporting menu etc
+- C-c C-e for inserting environments
+
+*** Process
+- easiest to convert org file into latex via org-exprot as latex then do final touches
+- note that ORG ROAM LINKS WILL ERROR COMPILING
+
+  

@@ -1,0 +1,100 @@
+% Created 2022-07-22 Fri 14:28
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titling}
+
+\date{\today}
+\title{3D Printing Ventilation}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={printing ventilation},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.91 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\pretitle{\begin{flushleft}\fontsize{18bp}{18bp}\selectfont}
+  \posttitle{\par\end{flushleft}}
+\predate{\begin{flushleft}}
+\postdate{\end{flushleft}}
+
+\maketitle
+
+\section{Abstract}
+\label{sec:orgc06e10e}
+Although there is ample research studying the emissions from extrusion type 3D printing systems, including their chemical breakdown and physical properties, there is little quantification of recommendations for mitigation of adverse health effects. Research has shown a wide array of parameters affecting the composition and physical qualities of emissions, such as filament material, printing temperature, nozzle size, and extrusion speed. Despite these factors producing varying results, all processes and parameter variations studied produce ultrafine particulate and as such it is the principal concern when considering adverse health effects. Many process variations studied produce other harmful compounds in smaller quantities such as VOCs. In reviewing OSHA standards concerning ultrafine particulate, very few national standards have codified limitations concerning ultrafine particulate.
+
+\section{Definitions}
+\label{sec:org83fc37e}
+
+\subsection{Ultrafine Particles}
+\label{sec:org5593488}
+Ultrafine particles (UFPs) are particulate matter of nano-scale size (less than 100 nm in diameter)
+
+\section{Recommendations}
+\label{sec:org8bca10a}
+
+\subsection{Basis}
+\label{sec:org6908163}
+Although the exact printing parameters of the proposed research are unknown, using VarioShore filament as a baseline, it can be inferred that extrusion temperatures will exceed 230C, and a larger nozzle size will be used to achieve high material throughput. Research indicates at 235C and using a relatively standard nozzle size of 0.4mm, for prints not exceeding one hour in length and using TPU filament, ultrafine particulate emissions reached a maximum concentration of 2.7 x 10\textsuperscript{5} particles/cm\textsuperscript{3}. The Finnish OSHA has defined a maximum of 2 x 10\textsuperscript{5} particles/cm\textsuperscript{3}. Understanding that the proposed research will likely exceed this printing temperature and nozzle size, and as research indicates both these parameters are proportional to the volume of ultrafine particulate released, it is concluded that the proposed printing processes will release ultrafine particulate exceeding recommended baselines for adverse health effects. The VarioShore MSDS recommends 'Remove person to fresh air and keep comfortable for breathing.' upon inhalation but makes no specific or quantitative recommendations for mitigating adverse health effects . Considering the above, recommendations are provided below for printing environments.
+
+\subsection{Enclosure}
+\label{sec:org612efcf}
+Enclosing the 3D printing system significantly reduces the rate at which harmful emissions are released into the working space.
+
+\subsubsection{Risks}
+\label{sec:org5817b7d}
+\begin{itemize}
+\item large table space required for enclosure
+\item enclosure must remain closed during printing process to be most effective
+\item enclosing the 3D printing system can cause overheating/fire if not managed appropriately
+\end{itemize}
+
+\subsection{Enclosure \& Exhaust}
+\label{sec:org7098f1e}
+Additionally an air extraction system reduces the potential of emissions reaching the working space significantly. This option may pose significant difficulty if there is not easy access to a dedicated air extraction system presently.
+
+\subsubsection{Risks}
+\label{sec:orgf325c37}
+\begin{itemize}
+\item extracting air from the printing enclosure can cause instability in environmental parameters throughout the printing process, potentially causing inconsistencies with print quality and print repeatability
+\item spot/dedicated exhaust system required
+\item air extraction system failure would permit slow release of reduced emissions into working space
+\end{itemize}
+
+\subsection{Enclosure \& Filter}
+\label{sec:org818d824}
+Using a filter in conjunction with an enclosure achieves significant mitigation of the release of ultrafine particles into the working space, but does not impact release of gaseous compounds such as VOCs. There are products available for mounting to most stock enclosure systems, which employ standard size HEPA or MERV filters.
+
+\subsubsection{Risks}
+\label{sec:orgce2bd76}
+\begin{itemize}
+\item HEPA and/or high rated MERV filters (such as MERV 17) typically deployed for this purpose are not certified to filter emissions such as VOCs
+\item available filter products may be incompatible with selected printing system
+\item some filter systems lack temperature monitoring and control, causing print temperature and other environmental parameter inconsistency
+\item filters need to be monitored and replaced periodically
+\end{itemize}
+
+\section{Conclusion}
+\label{sec:org828708e}
+In ranked order of effectiveness and overall user comfort level the above recommendations are:
+\begin{enumerate}
+\item Enclosure \& Exhaust
+\item Enclosure \& Filter
+\item Enclosure
+\end{enumerate}
+Using an enclosure as the sole component of an emissions mitigation system may be suitable in, infrequently occupied, well ventilated environments (exceeding 1ACH). 
+\end{document}

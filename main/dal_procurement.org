@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       41ca41ba-91f7-4655-ab54-12acbe262072
+:END:
+#+title: dal-procurement
+#+filetags: :procurement:dal:masc:
+
+* Process
+- create document and send to doman via slack
+
+* Outlines
+- risks
+- recoomendations
+- pricing
+- etc
+

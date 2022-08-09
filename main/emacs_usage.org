@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       39cef99c-842d-4e60-b807-077d3e1ecd63
+:END:
+#+title: emacs-usage
+#+filetags: :instructions:emacs:
+
+Notes for usage/implementation of emacs config
+
+* [[id:b1b99206-825c-458e-8b91-b0b1c48f7374][org-roam]]
+
+* [[id:79812ef0-a4f9-4823-9001-9093406efc73][org-mode]]
+
+* Notes
+- all sub tree heading items inherit ta of thier parent headings!
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       98b08686-898b-4c50-b88b-545cf255c5ad
+:END:
+#+title: dalhousie
+#+filetags: :admin:dal:
+
+

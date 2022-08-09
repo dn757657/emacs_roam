@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       64b4de03-118d-42ef-a023-06eb566c1ec4
+:END:
+#+title: ivy-bibtex
+#+filetags: :biblio:config:emacs:
+
+* What does this do 
+- manage references
+- create notes
+- insert formatted citations?? may just use citar
+
+* Commands
+- ivy-bibtex
+- dont for get to alt-o bb the ivy way
+- manage mostly through alt-o
+

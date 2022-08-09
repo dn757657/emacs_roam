@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       b1b99206-825c-458e-8b91-b0b1c48f7374
+:END:
+#+title: org-roam
+#+filetags: :org-roam:emacs:
+
+* Basics
+- all items are captured as main or reference
+- main is considered original thought, ref is from references
+- anything captured via slipbox goes to inbox.org and is considerd random brain dump for processing
+  
+* Useful Commands/Bindings
+- C-c n- holds all bindings for roam capture
+
+* Tagging
+- added keybinding C-t for adding filetags, can use tab within menu to search
+- otherwise use C-c C-c for counsel
+

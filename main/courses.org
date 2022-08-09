@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       898ffe91-4f7d-4d6d-87d1-bccd3d7f2300
+:END:
+#+title: courses
+#+filetags: :registration:masc:course:
+
+*  Resource/Info
+- https://academiccalendar.dal.ca/Content/Default/Controls/Catalog/ViewCatalog.aspx?pageid=viewcatalog&catalogid=112&chapterid=7079&topicgroupid=31105&loaduseredits=False&pg=3
+
+* Courses
+
+** Fall
+*** BMNG 5210: Biomedical Instrumentation, Data Acquisition and Analysis
+- CRN: 13289
+- FALL
+- highly reccomended, very interesting content
+- Research relevant
+
+*** MENG 6040  Make: Engineering Prototypes
+- dr hubbard
+- very pertinent to research
+- CRN: 14639
+- FALL
+
+** Winter
+*** BMNG 5230: Biomedical Signal Analysis
+- CRN: 23072
+- possibly research relevant/personal interest
+
+*** CSCI 6505: Mechine Learning
+- may not meet preqrequisites
+- could take 4150 instead
+- mostly just because im interested in ML/AI
+  
+*** MECH 6905
+- personal interest
+- inter-department course comparable to CSCI 6505
+  
+* Honourable Mentions
+
+** MECH 6660   Finite-element simulation techniques
+
+** MECH 6640   Robot Mechanics
+

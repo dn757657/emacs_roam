@@ -1,0 +1,231 @@
+% Created 2022-07-20 Wed 09:22
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{foam 3d printer}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={foam 3d printer},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.91 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Printers}
+\label{sec:org9a8fd26}
+\subsection{Prusa MK3s+ \url{https://www.prusa3d.com/product/original-prusa-i3-mk3s-kit-3/}}
+\label{sec:org65525a6}
+
+\subsubsection{Pros}
+\label{sec:org4f74527}
+\begin{itemize}
+\item known for slicer quality
+\item community
+\item professional level tool
+\item gold stndard
+\item speed
+\item enclosure available
+\end{itemize}
+
+\subsubsection{Cons}
+\label{sec:orgeae14f9}
+\begin{itemize}
+\item long lead time 3-4 weeks
+\end{itemize}
+
+\subsection{Pulse 3D Printer  \url{https://www.matterhackers.com/store/l/pulse-3d-printer/sk/MH4C92XW?aff=7512}}
+\label{sec:orgcd31e7f}
+\subsection{Ender 3 S1 Pro \url{https://www.creality3dofficial.com/products/ender-3s1-pro-3d-printer}}
+\label{sec:orgde1b792}
+
+\section{Components}
+\label{sec:orgfc7c4bd}
+\begin{itemize}
+\item \href{leveling_sensors.org}{leveling sensors}
+\item \href{extruders.org}{extruders}
+\end{itemize}
+
+\section{Rating}
+\label{sec:org491afe4}
+
+\subsection{Hot Ends}
+\label{sec:orgd4a3af9}
+\begin{center}
+\begin{tabular}{llllll}
+Printer & Hot End & Max Temp. & Responsiveness/Material & Power & Options\\
+\hline
+Prusa & E3D V6 & 300C & Alu Copper & 30W & up to 500C w/upgrade\\
+Ender & Sprite Pro & 300C & Alu & n/a & n/a\\
+Pulse & E3D V6 & 300C & Alu Copper & 30W & up to 500C w/upgrade\\
+ &  &  &  &  & \\
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item heater materials are kind of ambiguous/not much information provided, can only assume that the copper alloy is going to be more responsive in terms of dissapating and transferring heat
+\item Ender can be upgraded to E3D V6
+\item just from breif googling E3D has much better documentation
+\end{itemize}
+
+\subsection{Extruder}
+\label{sec:org9c09ebb}
+\begin{center}
+\begin{tabular}{lll}
+Printer & Drive & Weight\\
+Prusa & Dircet & \\
+Ender & Direct & \\
+Pulse & Bowden & \\
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item weight can contribute to overshoot/ringing/ is generally bad
+\item TPU and other flexible filaments can be printed using a bowden setup but not easily, dirct drive certainly much better
+\end{itemize}
+
+\subsection{Other}
+\label{sec:org77d0710}
+\begin{center}
+\begin{tabular}{llllll}
+Printer & Levelling Sensor & Documentation/Support & Community & Max Bed Temp & Printing Speed\\
+\hline
+Prusa & Inductive (pinda) & Good & Large & 120C & 80 mm/s\\
+Ender & Hall Effect (CR Touch) & Not Great & Large & 110 C & 60 mm/s\\
+Pulse & Hall Effect (BL Touch) & Exists & Exists & 115 C & 60 mm/s\\
+ &  &  &  &  & \\
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item hall effect levelling sensor may be a must with garolite printing bed and TPU adhesion, induction sensor still works but added bed thickness (above metal bottom) is limited
+\end{itemize}
+
+\subsection{Slicers}
+\label{sec:org418e5ac}
+\begin{itemize}
+\item all slicers seem to be based on the same CUSA engine and are all open source
+\item any slicer, since it is onyl producing G-CODE can be modified via code langauge of choice post process
+\item Prusa slicer features preloaded presets for materials, etc, this is not seen as valuable in this instance as the project is using custom materials and possible slicer modificaitons
+\end{itemize}
+
+\subsection{Motion}
+\label{sec:orgbfecc42}
+\begin{itemize}
+\item prusa is considered more accurate motion system, especially for small parts
+\item prusa uses better bearings and not rubber wheels like ender
+\end{itemize}
+
+\subsection{Motherboard/Computing}
+\label{sec:org67e9a46}
+\begin{itemize}
+\item both prusa and pulse are 8-bit, where ender is 32-bit
+\end{itemize}
+
+\section{Risks}
+\label{sec:org756866d}
+
+\subsection{Venting}
+\label{sec:orgb1aadad}
+\begin{itemize}
+\item venting is required for most printing filaments
+\item nothing crazy usually a fan out the window or similar
+\item highly ventilated room is also acceptbable
+\end{itemize}
+
+\subsubsection{Materials}
+\label{sec:org445264a}
+\begin{itemize}
+\item nylon (Caverna)
+\item abs
+\item TPU (varioshore)
+\end{itemize}
+
+\subsection{Hardware}
+\label{sec:orgaf8880c}
+
+\subsubsection{levelling}
+\label{sec:orgb1fe14b}
+\begin{itemize}
+\item avoid inductive type leveling sensors as only works with metal bed materials, may not be suitable for filaments in mind \href{leveling_sensors.org}{leveling sensors}
+\end{itemize}
+
+\subsection{Misc}
+\label{sec:org85cfdfa}
+\begin{itemize}
+\item delivery
+\item ender hot end may not be responssive enough given aluminum only heating block
+\item availability of correct bed surfaces for TPU adhesion, can also use glues on normal or glass beds
+\item varioshore STARTS foaming at 230C, will 300C be enough to fully observe its properties?
+\end{itemize}
+
+\section{Important params}
+\label{sec:org83be7a1}
+\begin{itemize}
+\item hot end control and response - titanium for ender both up to 300 degreesC
+\item motion accuracy - prusa big advantage rubber vs solid and bedding
+\item extruder both good but prusa not metla
+\item prusa much higher motherbord - prusa may strruggle with tough g code
+\item stepper drivers similar support sensorless homing only on prusa
+\item prusa lightweight bed and auto level same bed on ender but manual levelling 110 deg ender vs 120 deg prusa
+\item prusa best levelling sensor
+\item ender has some dumb extras like lights
+\item 
+
+\item prua much more accurate
+\item both can extrude the same filaments
+\item prusa 80mm/min, 60mm/min for ender
+\item 
+
+\item prusa has much better software/firmware
+\item prusa specific slicer
+\item 
+
+\item prusa wins big on documentation
+\end{itemize}
+
+\subsection{Extruders}
+\label{sec:orge2efea3}
+
+\subsection{Hot Ends}
+\label{sec:org62928b7}
+
+\subsubsection{Speed}
+\label{sec:org13c13c9}
+
+\subsection{Slicers}
+\label{sec:orgf7fe5ce}
+
+\subsection{Community/Support}
+\label{sec:orgdf4dcc2}
+
+\subsection{Leveling Sensors}
+\label{sec:org161e788}
+
+\subsection{Motion Accuracy}
+\label{sec:orgccc8fb4}
+
+\subsection{Motherboard/Computing}
+\label{sec:orgac364bc}
+
+\subsection{Bed}
+\label{sec:org33223ec}
+
+\subsection{Addons}
+\label{sec:org153b1ad}
+\end{document}

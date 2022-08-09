@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       db06003b-21f5-453c-860e-aa96872fd41e
+:END:
+#+title: citar
+#+filetags:
+
+* Usage
+- right now this is the only way to insert formatted biblio references
+- otherwise I do not know how to use this or what it does that may be useful
+- 

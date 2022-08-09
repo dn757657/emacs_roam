@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       282e3869-0d4f-44c7-b1d3-a8ce1d407824
+:END:
+#+title: diaphragm testing
+#+filetags: :masc:iud:diaphragm:
+
+* Procedure
+- no copper thickish casting
+- copper thickish casting
+- review and plan next tests
+
+** test casting
+- square casting
+- spherical casting
+
+*** variables
+- thickness?
+- 
+
+** copper
+*** variables
+- shape?
+

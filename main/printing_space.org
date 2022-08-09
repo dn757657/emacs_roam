@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       50d2a39d-8d2c-47fb-af15-d5d8e165dbea
+:END:
+#+title: printing space
+#+filetags: :requirements:setup:printing:
+
+* Printing Area Recommendations
+The recommendations from suppliers and manufactureres are outlined for each component of the proposed 3D printing infastructure in the sections below.
+
+** Printing System
+- large table prefereably constructed of non or minimally flammable materials, minimum dimensions of 550x715 [mm], and minimum clearance on one side of 250 [mm]
+- class C fire extinguisher
+- spot exhaust, enclosure filter capable of min. 1 [L/s], or lab space capable of min. 6 [ACH]
+
+** VarioShore/Caverna FIlament
+- dry storage cabinet with minimum dimensions of 300x300x50 [mm], capable of maintaining <10% humidity
+- hand/eye wash facility
+- ventilated print system as noted above
+
+* Procurement
+
+** Printing System
+- Prusa MK3s+
+- Prusa standard enclosure
+- Filter/exhaust components per selected ventilation recommendation
+
+** Filament
+- min. 1x 700g or 2000g VarioShore filament
+- optional 1x 500g Caverna PP filament (curious to evaluate both filaments)
+

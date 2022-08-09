@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       381510b8-5f0a-4bb6-9500-c44a8e0da353
+:END:
+#+title: FinModels Function
+#+filetags: :finmodels: :validations:
+
+* Validation
+
+** Concept
+- validations determine if the model is succeeding per the metrics stored in Validator objects
+  
+** How
+- assets are assigned targets, targets are simply other assets
+- assets can be validated individually via the model or the model can be validated by evaluating targets set for each asset assigned to the model
+
+** Dev
+- may need to be reconfigured in new source paradigm
+- assets should be capable of multiple target assignments?
+

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       283b0736-d849-4bcb-a32f-ec4846890807
+:END:
+#+title: masc-main
+#+filetags: :thoughts:notes:masc:
+
+* Procurement - [[id:41ca41ba-91f7-4655-ab54-12acbe262072][dal-procurement]]
+- foam 3d printer - [[id:87cb0a18-5968-4d04-825c-b3c3d0a4d52f][foam 3d printer]]
+  - printer: https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/
+  - 
+- foam filament
+- peter has dryer already
+- box
+  - see bom
+
+* Outline
+** Get that foam printing
+** Get Foam printing true to form
+** Research if foam actually does anything
+
+* Research
+
+** Printing Params
+- flow rate
+- nozzle temp
+- cooling
+- environmmental variables (humidity temp press) could all have effects
+- material throughput (speed & layerheight)
+- bed temp (10mm/s?)
+
+  

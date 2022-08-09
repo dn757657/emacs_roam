@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       7efe7a45-0384-4eb4-ae99-65aaeac440a5
+:END:
+#+title: finmodels_sources
+#+filetags: :python:sources:finmodels:
+
+* Usage
+- sources return df inclusive of bounds requested if possible, cases like future dates will obviously not be returned as this would require forecasting
+- sources are limited to existing data
+  
+** Column Access
+- right now source columns in use are accessed via xlbl and ylbl - do these need to be used?
+** Market Sources
+- market sources assign native currency internally, this may not be true for all finance sources
+
+* Dev
+- index is always 'x' column, most often date, might want to limit this to just date types for now
+
+** Column Access
+- not sure how to access correct columns when sources data, do not want to limit the access of all sourced columns as it allows for much more flexiblity
+- int he future maybe a sort of dictionary approach? where xlbl and ylbl are essentia, but other columns can be mapped and accessed via a dictionary?
+** Sample Func.
+- all sample funcs will set self.data when complete - this is the goal of the func
+  
+** Make a new FinSource
+1) get data as df using sample()
+2) map ylbl to desired output column
+3) done?

@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       05cea809-8356-4f84-bca7-a6a14e68c50a
+:END:
+#+title: box design
+#+filetags:
+
+* NOTES
+- two bolts/studs with wingnuts and diving board style retaining spring in the middle, shorten distance between bolts and tighten washers for adjustable panel mounting, easier to remove panels
+- no fasteners on top of panels
+- simple ledge or bolt on the bottom of panels to rest on
+
+* Design pros/cons
+
+** pros
+- do not need to cut standard 24in x 24in side/floor panels
+- retaining spring means easy panel removal by sliding up andm out
+
+** cons
+- need to cut and thread one end of each wall and floor support channel component (14 total?)
+- trimming of floor panel corners requried
+
+* Components
+
+** Retaining Springs
+- print on edge so that filament goes lengthwise for strength
+
+** Corner Braces
+- print on 45 face for strength in that direction
+
+* Ideas
+- side panels can be chopped up and stacked in slat type formation to add any sort of peripheral
+- additional bars can be added in conjunction with panel slatting method?
+
+* To do
+- some sort of feet?
+- handles for panels?
+- filament holder?

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ba195e8e-d6cd-49b8-ad35-6a9b565b5406
+:END:
+#+title: note taking
+#+filetags:
+

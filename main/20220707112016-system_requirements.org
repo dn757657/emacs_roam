@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       f4fea5be-19a9-44b7-8b35-8943cf311eeb
+:END:
+#+title: system requirements
+#+filetags: :requirements:system:setup:masc:
+* Notes
+- Rayan PC likely does the job - could use more RAM if nt NVME drive
+- my laptop is ok unless there is significant budget (see pocket 3)
+- peripheral budget? procurement?
+
+* PC
+** FEM/Sim
+*** Needs
+- typically CPU heavy
+- CPU with ecc mem is preferable, i7 and i5 architectures do not support this
+- more cores != better, ideally in the range of 8-12, this applies to hyperthreading
+- higher clock speeds favoured over more cores
+- NVME drive /drive speed is important
+- tissue modelling/body systems
+- additive manufaturing elements? packages available
+
+*** Systems
+**** Ansys/LS-DYNA - used before 
+**** HyperMesh
+**** Solidwors/AutoCAD integrated? 
+
+** Modelling
+*** Needs
+- professional graphics are recommended but often RTX cards perform similar (if not idenitically) and are more accessibel/economical
+**** Complex surfaces/curvature
+**** 3d scanning perhaps idead - not sure if useful
+***** mesh model capbility
+- mesh resolving in fusion 360/Autodesk fairly robust, have used
+
+*** Systems
+**** Solidworks
+https://help.solidworks.com/2021/English/Installation/install_guide/c_viz_prereqs_system_reqs.htm
+**** Inventor
+https://www.x-cad.pl/files/System_requirements_for_Autodesk_Inventor_2021.pdf
+
+*** Notes
+**** balancing available vs new haredware purchase
+  - Issues with sim complexity such as Rayan is having, will i have heavier sim work or no? processor issue//bottleneck
+
+* Laptop
+** Use own?
+- no issues on my
+- this grogeous thing: https://droix.net/product/gpd-pocket-3/?attribute_pa_configuration=base-pentium-model&utm_source=Google%2BShopping&utm_medium=cpc&utm_campaign=gshopping_CA_CAD&currency=CAD&gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtW7Wwoe_gIw6g2j2P3QuGt_GfjUkqRHlRzEZuk9TtFGe6l57SWcqYhoCqfIQAvD_BwE
+
+* Peripheral
+** Notes
+- for current desk setup: ~65-70cm
+- https://www.esportstales.com/tech-tips/ideal-distance-to-sit-away-from-your-monitor
+- 24" ideal for viewing distannce
+- LCD/LED doesnt matter
+- mount 
+- ergo mouse and keyboard - cables? likely dual HDMI/usb ext.
+** BoM
+*** 24" Monitor x2 27? budget dependant https://www.staples.ca/products/2973621-en-asus-238-ips-frameless-monitor-with-amd-freesync-technology-va24ehey
+*** Monitor Mount
+- dual monitor
+- 50-50cm height for eye height
+https://www.staples.ca/products/3018301-en-shoppingall-fully-adjustable-pneumatic-dual-gas-spring-monitor-desk-clamp-mount-black
+*** Mouse
+-MX 3S or MS650 not much concerned
+*** Keyboard
+- big fan of wired
+  https://www.staples.ca/products/2991918-en-logitech-k845-mechanical-illuminated-keyboard-ttc-blue
+*** cords
+- usb ext is useful
+- HDMI x 2 for monitor hookup depending on GPU inputs
+

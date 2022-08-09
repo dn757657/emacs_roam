@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       eda4973e-c4c5-4d47-8bc8-e6cd3a98e428
+:END:
+#+title: finmodels_forecasts
+#+filetags: :forecasting:finmodels:
+
+* Dev Notes
+- forecasts use sources to project future data
+- start with single index forecasts
+- progress to multiindex forecasts
+
+** Plan
+- try out single and multi index forecasting and then think of how to integrate into model
+- method where forecasts are pre configured does not entirely work since training data will be changing but same forecast being applied frequently
+- could use some sort of factory? idk
+- params that change with usage by different assets must be passed via funcs not init. Is this a solution?
+
+* Usage
+- forecasts are preconfigured and fed to model to be used by assets
+- doesnt actuallly do the work when initialized to save time, onyl does forecasting/training when called upon
+- this way frecast can be configured and initialzied wihtout a ton of time and processing

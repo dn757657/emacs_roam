@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       79812ef0-a4f9-4823-9001-9093406efc73
+:END:
+#+title: org-mode
+#+filetags: :org-mode:emacs:
+
+* Bascis
+- all items in top level manu of capture menu go to files named respectivly, aka all captures from tsks menu will go to Tasks.org
+- items are captured and processed as required within thier respective files
+
+* Useful Commmands
+- C-c C-c for tagging, TAB for counsel tagging
+- C-c c for capture menu

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       e5d9f775-e431-42cc-a512-13b7997ae0c9
+:END:
+#+title: biblio conifg
+#+filetags: :zotaro:biblio:emacs:masc:
+
+* Thoughts
+- org-ref may be better for managing citations within latex docs
+- check functionality of zotlot for more zotero utlility
+
+* Process
+- better bibtex exports .bib file automaticallly when chanegd in zotaro
+- use ivy-bibtex to create notes using ref capture template and to insert citations in org and latex modes
+- use orb to navigate from cite links to note
+
+* Pcakages
+- [[id:64b4de03-118d-42ef-a023-06eb566c1ec4][ivy-bibtex]] - bib management in emacs
+- [[id:f5f5e1ed-a515-4df8-894a-02d51978cefb][orb]] - roam integration with bibtex
+- [[id:db06003b-21f5-453c-860e-aa96872fd41e][citar]] - presently nto using
+- zotfile (zotero library) to move zotero pdf references
+- betterbibtex (zotero library) to sync/export bib file for roam to access for referencing in emacs
+
+** packages explained https://org-roam.discourse.group/t/need-help-getting-noter-pdfs-and-org-roam-bibtex-to-work/794/18
+-Look, there are three different packages developed independently by different people: Org Ref, Helm BibTeX and Org Roam BibTeX. They are interconnected in certain ways but that it is. It may look like a mess (and it is to some extent) but this is what we have.
+
+So, Helm BibTeX lets you search through your bibliorgaphy: you run helm-bibtex, a window popups and you can perform some actions on entries in you .bib file using a user friendly Helm interface.
+
+Org Ref allows for cite:citekey style links, it is a third-party solution for currently missing Org Mode citation links. Org Ref links are clickable and you can perform some actions on that. Most of the actions have nothing to do with Helm BibTeX because Org Ref has native implementation for them, although it could also use Helm BibTeX (and does so in some cases).
+
+Org Roam BibTeX makes Org Roam note-taking machinery become aware of BibTeX. It does so by relying on bibtex-completion (the same library that powers Helm BibTeX). It also shadows native note-taking facilities of Org Ref and Helm BibTeX, allowing one to use Org Roam instead. So with Org Roam BibTeX you can access your Org Roam notes from both Helm BibTeX and Org Ref
+
+* Questions
+- not sure the point of citations? - i think this is for inserting into latex docs and similar
+- open citation notes from citation - orb-edit-citation-note
+- what is the point of roam refs? - keeping track of refences/used by biblio modules (i think orb)
+
+  
+* Testing
+org-cite citation with page number?
+[cite:@kuanHowTakeSmart[p2]]
+
+ivy insert citation
+[cite:@kuanHowTakeSmart]
+
+can use these links with ORB to open notes etc.

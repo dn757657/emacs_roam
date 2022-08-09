@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       85a8da31-132f-4bb3-83bd-46749b9997bf
+:END:
+#+title: leveling sensors
+#+filetags: :levling:3d:
+
+* Function
+- sensors do not in fact leve the bed, they instead create a mesh map of the bed and adjust the print accordingly 
+
+* Sensors
+
+** Inductive (PINDA/superPINDA)
+
+*** Pros
+*** Cons
+- inductive sensors only work with metallic printing beds
+- inductive sensors are affected by humidity and heat
+- issues potentially with enclosures and significant heat differences
+*** Notes
+- inductive sensor will still work, just limited to the thickness of the surface on top of the metal bed, since the inductive sensor detects the metal bed underneath and can only sense through a certain thickness
+
+** Hall Effect (3DM Touch)
+
+*** Pros
+- works with all bed type materials
+- not affected by heat and humidity
+
+*** Cons
+- slower than inductive type sensors
+- more difficut to set up
+
+* Refs
+[cite:@AutoBedLeveling]
+

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       acf6710f-0858-499b-87d2-de9a0d5260a5
+:END:
+#+title: doman notes
+#+filetags: :doman:notes:questions:
+
+* Diaphragm
+
+** Mold
+- material shrinkage?
+- design resources?
+- mold base?
+  
+** Materials

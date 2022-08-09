@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fde4be5e-8c6d-4fcd-8c1e-3d609b76e1db
+:END:
+#+title: python
+#+filetags: :python:
+
+Tips and notes learned from writing and structuring python projects
+
+* Basics
+- always think and read more than you code, experimenting is important but dont take it too far
+- do your best to maintain a broad functional vision of the project from start to finish
+
+[[id:182f5fe8-5cee-4537-9627-83a56e064ab4][python structure]]

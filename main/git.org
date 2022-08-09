@@ -1,0 +1,50 @@
+
+:PROPERTIES:
+:ID:       f91c1589-d881-4a24-b4ee-3ca45c0fc509
+:END:
+#+title: git
+#+filetags: :code:git:
+
+* Notes
+- git and github are two different things
+- three components to git:
+  - working directory
+  - staged snapshot
+  - commit history
+
+    
+* Definitions
+- remote: server based public github repository
+- repository: local collection of version controlled files (typically grouped by project)
+- orphaned commit: commit set to be trashed at next cleanup
+- head: current tip/snapshot of working branch
+
+* Usage
+** Committing 
+** Pushing
+** Undoing
+https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=The%20git%20checkout%20command%20can,which%20inverses%20the%20specified%20commit.
+
+*** Revert
+- undo the changes made by a commit
+- can only revert entire repo, no file based commands
+- use for undoing changes that have been made public 
+- revert to a previous commit
+- does not change the commit history, creates a new commit in the branch (linear history progression)
+  
+*** Reset
+- move tip of branch to different commit
+- goes back in the commit history, deleting commits beyong the reset
+- use for undoing changes that have not been pushed/made public
+- creates orphaned commits beyond the commit to which the reset is aimed
+- orpahned commits will be deleted in next garbage cleanup
+- three types
+
+*** Checkout
+- discard changes in the working directory (file checkout)  or inspect previous snapshot of repo (repo checkout)
+- checkout a previous commit
+- both file and repo level commands
+- does not affect commit history/restructure branches
+
+** Merging/Pull Requests
+

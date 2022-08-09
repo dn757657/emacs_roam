@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f5f5e1ed-a515-4df8-894a-02d51978cefb
+:END:
+#+title: orb
+#+filetags:
+
+* What does this do
+- utility for editing notes per biblio entries
+- roam_refs
+- overlaps somewhat with helm-bibtex and ivy-bibtex

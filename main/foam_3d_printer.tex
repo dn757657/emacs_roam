@@ -1,0 +1,199 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "foam_3d_printer"
+%%% End:
+
+% Created 2022-07-20 Wed 14:00
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titling}
+\usepackage{titlesec}
+
+\date{\today}
+\title{3D Printing System Comparison}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={foam 3d printer},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.91 (Org mode 9.5.2)}, 
+ pdflang={English}}
+
+\begin{document}
+
+\setcounter{secnumdepth}{4}
+
+\pretitle{\begin{flushleft}\fontsize{18bp}{18bp}\selectfont}
+  \posttitle{\par\end{flushleft}}
+\predate{\begin{flushleft}}
+\postdate{\end{flushleft}}
+
+\maketitle
+
+\section{Summary}
+\label{sec:org4aab5aa}
+
+\subsection{Printing Systems}
+\label{sec:orgbcc6ccc}
+
+\subsubsection{Prusa MK3s+}
+\label{sec:orgd310f51}
+
+\paragraph{Summary\\}
+\label{sec:orgb6fa7cd}
+Of the 3D printing systems considered, the Prusa MK3S+ is the most suitable choice for the proposed research purposes. Employing a direct drive extruder as standard, a capable and upgradable hot end, as well as an outstanding record for end user support and documentation. Other notable features of the MK3S+ include a wealth of available peripherals, sensor-less homing, a rigid motion system, an inductive levelling sensor and the fastest print speed of the systems considered.
+
+\paragraph{Pros}
+\label{sec:orga6b981f}
+\begin{itemize}
+\item Significant documentation, manufacturer and community support
+\item Motion system with solid carriage wheels and high quality bearings, resulting in high accuracy with small scale components
+\item Fastest print/media throughput capability
+\end{itemize}
+
+\paragraph{Cons}
+\label{sec:org564196d}
+\begin{itemize}
+\item Possible lead time issues (2-3 weeks minimum)
+\end{itemize}
+
+\paragraph{Risks}
+\label{sec:org7ebd13e}
+\begin{itemize}
+\item TPU filament adheres poorly to the stock coated metal printing beds, instead glass, or Garolite are often recommended. The MK3S+ employs an inductive levelling sensor, if a non-metallic printing bed of sufficient thickness were used, the inductive sensor would cease to function correctly as it can no longer detect the metal base through the printing base installed on top. Another potential risk arises in using a non-metallic print bed on top of the metallic print bed, as the inductive type levelling sensor measures the metal bed regardless. If any non-conformities exist, or the top most printing bed is not secured sufficiently, the measurements of an inductive type levelling sensor are invalid.
+\end{itemize}
+
+\subsubsection{Matterhackers Pulse XE}
+\label{sec:org4f8911d}
+
+\paragraph{Summary\\}
+\label{sec:orgc003a3c}
+The Matterhackers Pulse is typically recommended as a cheaper alternative to the Prusa MK3S+. Although the Pulse XE boasts the same high quality hot end as the MK3S+, many of its other components are lagging in comparison. Noting that the price point is very similar to the MK3S+, it is not recommended.
+
+\paragraph{Cons}
+\label{sec:org5a75c63}
+\begin{itemize}
+\item Bowden Tube Style Extruder
+\item High price point
+\end{itemize}
+
+\paragraph{Risks}
+\label{sec:org46065aa}
+\begin{itemize}
+\item Printing with flexible filament using a Bowden Tube extruder is significantly more difficult, less repeatable, and less configurable.
+\end{itemize}
+
+\subsubsection{Creality Ender 3 S1}
+\label{sec:org112ac47}
+
+\paragraph{Summary}
+\label{sec:org91e66f3}
+The Creality Ender 3 S1 Pro manages to reach a similar hardware specification as the systems listed above, at a significantly lower price point. In turn Creality offers significantly less end user support, adequate community support, and may require significant user configuration to achieve similar quality results to the other systems. Creality also offers their own competitive open source slicer which is build on the popular CUSA engine.
+
+\paragraph{Pros}
+\label{sec:org66c9158}
+\begin{itemize}
+\item 32-bit motherboard can calculate more efficient pathing.
+\end{itemize}
+
+\paragraph{Cons}
+\label{sec:org6fc5832}
+\begin{itemize}
+\item User review frequently note uneven bed heating, contributing to adhesion issues in larger components
+\item Rubber wheels in motion system can reduce print form accuracy
+\end{itemize}
+
+\paragraph{Risks}
+\label{sec:org4d3918a}
+\begin{itemize}
+\item Extrusion temperatures limited to 300C without upgrading entire extrusion hot end. VarioShore filament notes the minimum extrusion temperature for foaming to occur is 230C, this provides only a small 70C range for experimentation.
+\end{itemize}
+
+\subsection{Printing Location}
+\label{sec:org14b4306}
+
+\subsubsection{Risks}
+\label{sec:orgf9c90c3}
+\begin{itemize}
+\item Ventilation will be required for printing any of the proposed foaming filaments. Either a printing enclosure with access to ventilation or a highly ventilated room is suggested.
+\item Consistent humidity, temperature and pressure is essential to achieve high quality prints consistently.
+\end{itemize}
+
+\section{Comparison Breakdown}
+\label{sec:orgedb0025}
+
+\subsection{Hot End}
+\label{sec:org8fbd0c8}
+
+\begin{center}
+\begin{tabular}{llllr}
+Printer & Model & Max. Temp. [C] & Melting Block Material & Power [W]\\
+\hline
+Prusa MK3S+ & E3D V6 & 300 (500 w/ upgrade) & Aluminum Copper & 30\\
+Ender 3 S1 Pro & Sprite Pro & 300 & Aluminum & n/a\\
+Pulse XE & E3D V6 & 300 (500 w/ upgrade) & Aluminum Copper & 30\\
+\end{tabular}
+\end{center}
+
+\subsubsection{Notes}
+\label{sec:org49c4eb1}
+\begin{itemize}
+\item Melting block material is include as it could bear on the capability of the hot end assembly to increase or decrease the extrusion temperature at the desired rate. The density of foaming filament is often a function of extrusion temperature. Very little information is provided about the exact composition of alloys used.
+\end{itemize}
+
+
+\subsection{System}
+\label{sec:orgf714514}
+
+\begin{center}
+\begin{tabular}{lllllr}
+Printer & Levelling Sensor Type & Max Bed Temp [C] & Printing Speed [mm/s] & Price & Est. Lead Time\\
+\hline
+Prusa MK3S+ & Inductive & 120C & 80 & 799 & 2-3 weeks \\
+Ender 3 S1 Pro & Hall Effect & 110 C & 60 & 682 & 4-10 days\\
+Pulse XE & Hall Effect & 115 C & 60 & 1049 & 2-3 weeks\\
+ &  &  &  &  & \\
+\end{tabular}
+\end{center}
+
+\subsection{Support}
+\label{sec:orgf714515}
+
+\begin{center}
+\begin{tabular}{lp{0.25\linewidth}r}
+Printer & Manufacturer Documentation/Support & Community\\
+\hline
+Prusa MK3S+ & Great & Large\\
+Ender 3 S1 Pro & Not Great & Large\\
+Pulse XE & Exists & Exists\\
+ &  & \\
+\end{tabular}
+\end{center}
+
+\subsubsection{Notes}
+\label{sec:org27c6796}
+\begin{itemize}
+\item maximum printing speed depends ultimately on filament used
+\end{itemize}
+
+\subsection{Slicers}
+\label{sec:org5478cf1}
+All slicers are free and open-source, both Creality and Matterhackers provide a customized version of the popular CUSA engine
+
+\subsection{Peripherals}
+\label{sec:orgeda61f0}
+Potentially valuable peripherals such as enclosures and diverse material build plates are accessible to all models from the manufacturer.
+
+\end{document}

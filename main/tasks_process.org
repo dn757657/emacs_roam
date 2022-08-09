@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       856aa389-9194-4058-815c-eb3676012802
+:END:
+#+title: tasks process
+#+filetags: :process:tasks:emacs:
+
+* Current system
+- only use next if tasks are really next
+- pull next tasks from ready
+- use planning instesad of backlog if item has deadline
+- C-c c t t to capture task -> refile task in tasks org/manage/add metadata
+  - typically start with planning, ready or backlog
+- use agenda views for next and work flows to work through tasks
+

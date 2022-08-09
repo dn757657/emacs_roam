@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       94ad490c-9dc4-4a1a-ad3e-77a0f61ca53d
+:END:
+#+title: extruders
+#+filetags: :extrude:printing:3d:
+
+* Direct Drive
+
+** Pros
+- versatility
+- ease of use ofr felxible filaments
+- printing flexible filaments softer than 95 Shore A [cite:@How3DPrint
+
+** Cons
+- price
+
+* Bowden Tube
+
+** Pros
+- cheaper
+
+** Cons
+- poor printing with flexible filaments (especially beyond 95 Shore A softness)

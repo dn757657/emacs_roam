@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       676552ba-d9c6-42fe-aaae-e15dfbc7d47d
+:ROAM_REFS: cite:kuanHowTakeSmart
+:END:
+#+title: How To Take Smart Notes With Org-mode â· Jethro Kuan
+#+filetags:
+
