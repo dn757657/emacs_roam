@@ -66,5 +66,11 @@ sources/flows/forecasts -> assets/forecasts -> models
 - sources of data such as sql, online source, etc
 - purely pipelines to deliver information in a requested range
 
+** Usage
+- note that interpolation happens after options are applied
+
+** Issues
+- could interpolation be inside source as option, interpolating after options is not intuitive
+
 * Ideas
 - could someday integrate with emacs by defining standard capture templates for model components?
