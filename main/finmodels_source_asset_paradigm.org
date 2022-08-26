@@ -4,73 +4,31 @@
 #+title: FinModels Main
 #+filetags: :paradigm:structure:finmodels:
 * Paradigm
-sources/flows/forecasts -> assets/forecasts -> models
+cascade assembly
 
 * Dev
-- how to deal with limits/validations
-- this ties in to the whole evaluation thing which im really not sure what that means yet
-- aka how does a model fail? source limits? asset limits? something of that type idk
+- start with simple real case, a source into a forecast into an assembly with forecast as source, expand this to multiple units if successful
+- onyl one assembler function in assembly object
+- see what that doesq
 
-* Models
+* Assembly
 
-** Notes
+** DFAssembly
+- assembly using collapsing irregular lists algorithm
+- sources and sampled and appended to list, as is forecast, as is fill, then collapsed by list order into first list item using processor and assembler function
 
-** Function
-- sample/evaluate assets
+*** Sources
+- sources can be list or single
+- use carefully as sources will be assembled in same way as forecast
 
-* Assets
+*** Forecast
+- function with strat, end , training params
+- returns future values in df
+- will be assembled using assembler function
 
-** Notes
-- x and y columns in 
-- uniform sampling of flows and sources at dates requested
-
-** Function
-- the asset source can have its own forecast, this DOES NOT replace the flow forecasts, but instead forecasts the value of the source AS IF THERE WAS NO FLOW
-- Flows assigned to assets to outline inputs and outputs of the asset using known data or forecasted trends
-- asset value is obtained via the source
-
-* Flow
-- flow is basically a source, that is limited to future/forecast data
-- flow cannot exist in the past because the flow has already flowed, if you get my drift
-- aka the asset source contains all past flows
-
-** Notes
-- flows are assgined to assets inflows or outflows
-- flows exist independantly of the model 
-
-** Function
-- increased granularity for asset forecasting
-- assigned to an asset in and out
-- describes movement of value
-
-* Validation - do we need validation
-- pairs of assets or flows
-- simple pass fail option
-- difference output option
-- both option via model validation funcs
-
-* Forecasts
-[[id:eda4973e-c4c5-4d47-8bc8-e6cd3a98e428][finmodels_forecasts
-]]
-** Function
-- forecasts are a property of each source or asset
-- forecast can use multiple sources as indexes?
-- standardize pipeline for using various forcasting packages
-- standalone object that is configured prior to interacting with other objects
-- store in model??
-- some sort of capability to assess accuracy/effectiveness of model
-
-* Sources
-[[id:7efe7a45-0384-4eb4-ae99-65aaeac440a5][finmodels_sources]]
-- flows are basically sources limited to future
-- sources of data such as sql, online source, etc
-- purely pipelines to deliver information in a requested range
-
-** Usage
-- note that interpolation happens after options are applied
-
-** Issues
-- could interpolation be inside source as option, interpolating after options is not intuitive
+*** Issues
+- full index fill methodology
+- not fully understanding how entire system works, expanding and collpasing lists is difficult to track
 
 * Ideas
 - could someday integrate with emacs by defining standard capture templates for model components?

@@ -29,3 +29,7 @@
 - bed temp (10mm/s?)
 
   
+** Filamesnt Testing
+
+*** Behaviours to observe/intentional failure 
+- head dragging in taller prints and lower layer heights?
