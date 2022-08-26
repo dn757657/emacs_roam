@@ -14,6 +14,9 @@
   - see bom
 
 * Outline
+** outline/info
+ - 3D Printing Foam Trauma Attenuating Backings for Ballistic Armor
+ - Masters of Applied Science
 ** Get that foam printing
 ** Get Foam printing true to form
 ** Research if foam actually does anything
