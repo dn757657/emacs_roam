@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       78565bfa-0762-4f8b-8fdc-8ebdb46099ce
+:END:
+#+title: diaphragm design
+#+filetags: :design:masc:iud:
+
+* first coil test
+
+** experiment design
+- coil of wire longitudinal, isolate the effects of coil in single direction by using axial coil. This way it can be determined if there are problems in one axis or multiuple
+- intent is to observe the concept of casting a coil, not performance, ask: is it feasible/worth pursueing
+- use current mold
+  - issue where coil will not be centred (planar-ly) but this is considerd non issue for demonstrating concept
+- use the wire diam to paramaterize other params
+  - coil seperation: start with 2D
+  - coil OD: start with 10-20D, pick a number because were just making this up
+
+** variables
+- noted that these are PERFORMANCE variables which are not intended to be observed by this experiment
+  - coil seperation
+  - wire diam
+  - wire composition?
+  - wire placement
+  - coil OD
+  
+** coil tool design
+- wire estimated to be 0.5mm od roughly
+- tool should have 2D pitch = 1mm centre to centre
+- tool should also have 15D coil OD (lets say) = 7.5mm, seems reasonable (maybe on upper end of ideal sizes)
+
+** test
+- cast initial
+- look for glaring issues
+- if not do three more trails for JJ
+
+** desk observations
+- even when coiled wire is quite difficult to manipulate, in startk contrast to thin production diaphragms
+
