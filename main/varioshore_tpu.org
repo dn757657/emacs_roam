@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       61027264-57e5-4b1e-a368-242d9b50abb4
+:END:
+#+title: varioshore-TPU
+#+filetags: :masc:3D:printing:filament:
+
+* Recommended Print Settings
+- nozzle temp: 190-250 C
+- printing speed: 20-30 mm/s
+- less cooling for better layer adhesion
+- careful of layer height, advised not to be 'too small'
+- bed temperature 20-40 C
+
+* Design Recommendations
+
+* Notes
+- much more braod recommendations than caverna
+- may require more experimentation

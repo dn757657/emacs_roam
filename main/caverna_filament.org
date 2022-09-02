@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       d51f65ec-5508-43f8-a153-eb864c09bdbc
+:END:
+#+title: caverna filament
+#+filetags: :settings:filament:masc:printing:
+
+* Settings
+- nozzle 245
+- speed 25mm/s
+- 0.2mm layer height
+- build plate @ min 80C, 120C recommended
+- infill 20%
+- exterior walls @ 3 layers (top/bottom/walls)
+- scale in z direction?
+- ambient 50C - this is noted in the 'specs' section of webpage but not in printing guide? odd
+ 
+* Designs
+
+** Dos
+- open infill (aka no top layer)
+- gyroid fill
+- infill 20%
+- create pathways to any isolated interior volumes
+
+** Donts
+- thick walls
+- closed internal volumes
+  
+* Notes
+- limitation of water access for dissolving soluable components
+- ambient requirement noted in webpage but not printing guide?
+  
+* Questions/Experiments
+
+** Dimensional Accuracy
+- try no z scaling or any scaling of any sort 
+
+* Post Process
+
+** dissolve
+- recommended 80C agitated water for optimal dissolution speed
+- dissolution complete when roughly half original weight (55% mass loss) - how does water mass factor in
+
+** dry
+- dry at 60-80C for 8 hours
