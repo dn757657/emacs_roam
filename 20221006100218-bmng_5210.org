@@ -1,0 +1,220 @@
+:PROPERTIES:
+:ID:       2d977fe6-8a01-47e0-a7ac-8658e8917b51
+:END:
+#+title: bmng 5210
+#+filetags: :fucklabview:biomed:masc:
+
+* Signals
+- something as a func of time
+- most often analog for biomed, digitized for purposes of computers (very closely spaced, aka res)
+- digital can be presented more effectviely?
+
+** Amps - not only magnify
+- reduce interference
+- signal quality
+- noise reduction
+
+** Conditioning
+- purer representation of signal, more effective diagnosis
+
+** Analog
+- continuous
+- real world
+
+** Digital
+- discrete
+- sampling rate
+- limited by hardware, accuracy
+
+*** Approximation
+- can distort original signal when improper sampling rate applied
+- faster = expensive
+
+** Key Props
+- AC signal component is signal without offset (offset subtracted)
+
+*** Offset
+- average over long period of time
+- long period? longer than loswest change in signal that is significant
+- aplifier can also introduce offset, often removed/filtered out
+
+*** SNR - information content/quality of signal - important
+- signal to noise ratio of powers (signal power and noise power)
+- higher is better, more signal - less noise
+- powers are estimated/analytical
+- often noted on decible scale (log scale)
+
+*** Amplitude
+- peak amplitude, Vp, diff from offset to max
+- peak-peak diff between trough and peak
+
+**** RMS Amp
+- sqaure root of average of the square
+- signals can have same aplitude but be very different
+- Vrms is fraction of actual Vp
+- captures duration somewhat
+- indicative of signal average
+
+*** Random
+- stationary means that offset is not moving  (constant)
+- variance = signal power
+
+*** Periodicity
+- biomed signals often repeat patterns
+- within range of expected variation (quasi-periodic)
+- time elapsed between reps is period
+- freq is 1/period
+
+*** Speed - bandwidth
+- speed at which aplitude (y value) changes
+- often called bandwidth
+- units of frequency
+- maximum of curve slope
+
+* Final Project
+
+** Ideas
+- instron
+- some sort of stiffness/mechanical param testing device for printed samples
+- verdification vs validation
+- what should it do
+- does it do
+
+* Frequency Analysis
+
+** Power Spectrum
+- fourier analysis - any signal decompose into sum of sine waves
+- time doman -> frequency domain
+
+*** lowpass
+- extends down to zero hertz
+
+*** bandpass
+- not down to zero, exists in a band
+
+*** broadband
+- speed limit faster than sampling rate, power sepctra across entire graph
+
+*** Uses
+
+**** detecting periodicity
+- peaks of power spectra
+- fundamental, harmonics
+
+** Noise
+- random signal
+
+*** White Noise
+- equal contributuions to the power from all frequencies
+
+** Signal Efficacy
+- false positives vs fasle negatives
+
+*** Sensitivity
+- rules disease out
+
+*** Sepcificity
+- rules disease in
+
+* Nomalization
+- one measurement per cycle
+- cutting out sampling rate can make processing easier
+- att time axis back in once processing complete
+
+** Normalized Freq
+- fraciton of sampling frequency
+
+* Filtering
+- increasing signal to noise ratio? SNR
+  
+** Where to start? - use prior knowledge
+- I don’t think my data should have any sharp spikes in it.
+- The maximum speed at which I expect my signal source to vary is 200Hz
+- The minimum speed at which I expect my signal source to vary is is 10Hz
+- I don’t expect my signal to have any strong, narrowband feature at 60Hz
+- My signal should have two and only two peaks in it
+- My signal should have a fast rising edge and a slow falling edge
+- My signal should be repeatable from shot to shot
+- My signal should look like a template function I can define
+- etc.
+
+** Linear Filters
+
+*** Filter props
+- passband: range of freq allowed to pass through filter
+
+*** Filtering by sampling known
+- sample same known signal each time
+- differences each time are noise
+
+*** Low Pass
+- keeps/does nto affect low frequencies
+
+**** Moving average - low pass
+- more samples, less and less like actual signal, dramatic features are supressed
+- amplitude decrease (severe features decrease) with increasing averaging window size
+- window size such that signal of interest doesnt change significantly over window
+- good for removing high frequency noise
+- wider window, lower cutoff
+
+**** Finite Impulse Response
+- better attenuation at high frequency (than regular moving average)
+- moving average with applied weights of samples
+- weighting is same throughout each and all windows
+- modulate window without changin cutoff freq
+- bigger window = better?
+- all around better than moving average
+- bigger window, sharper cutoff, more attenuation
+- no imporvement in having more taps than samples
+- computational cost in increasing taps, can be issues in cost/packaging production systems
+
+*** High Pass
+- attenuate low frequency
+- remove frequency offsets and drift
+- can use FIR with negative weights? emphasize higher frequency
+
+*** Band Pass
+- block high and low frequencies
+- leaving range (passband) unaffected
+- used when signal component is within a known frequency band
+
+*** Bandstop
+- block frequencies in a band
+- used for blocking interference at known frequencies
+
+*** Infinite Impulse Response
+- can be used prior to digitizing a signal (analoge signal)
+- see types and tradoffs: butterworth, chebyshev,  bessel, elliptical
+- due to feedback nature, can be unstable (ala system response)
+- uses less memory than finite impulse
+
+** Filter Design
+
+*** Important Params
+- Filter gain is the peak transmittance in the passband region
+- Passband ripple is the variation in gain within the “flat part” of the frequency response function
+- Stopband attenuation is the peak transmittance in the range of frequencies that the filter blocks
+- Bandwidth is the frequency at which frequency response function drops by 3dB from its value at 0 Hz. This frequency is called the cutoff frequency
+- Stopband ripple is the different between the maximum and minimum transmittance in the stopband
+- Transition region width is the difference between and the frequency at which the transmittance drops below that stopband attenuation
+
+*** Basic Guidelines
+- apply linear filter as a first step most of the time
+- random noise - low pass (FIR or IIR)
+- spike noise - median filter ot savitsky-golay
+- narrowband interference (eg60hz) - bandstop, IIR
+- offset/drift - highpass linear filter (FIR/IIR)
+
+** Non-Linear
+- spike/stoccastic noise elimination
+
+*** Median
+- good at removing spikes
+- replace each sample with median within window
+
+*** Savitsky-Golay
+- smoothing
+- fitting in each window
+- taking central value of each polynommial fit in the window
+- good at preserving peaks in measured signal if desired
+
