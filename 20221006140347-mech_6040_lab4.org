@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       95ac75b7-2a61-42d9-a21a-95e60e2ecea2
+:END:
+#+title: mech 6040
+#+filetags: :design:masc:
+
+* LABS
+
+** Lab 4
+- go 0.01 smaller with snug - cross
+- loose 0.005 larger - cross
+- hole good!
+
+*** Cross
+- snug = 0.06 offset thin, .07 offset thick (pending)
+- loose = 0.12 offset
+
+*** Circle
+- snug = ??
+- loose = 4.95diam
+
+  
+* PROJECT
+- 2 wheel follower design
+- https://hackaday.com/2021/06/27/mechanical-7-segment-display-uses-a-single-motor/
+  

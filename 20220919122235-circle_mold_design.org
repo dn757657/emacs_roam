@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       70ecfbb1-d2c6-4525-9727-3644343c8318
+:END:
+#+title: circle mold design
+#+filetags: :masc:iud:
+
+how the ufkc do we do this
+
+* COIL
+- coil will be submerged in one quarter of rim diameter?
+- this means 1.25 mm, which is greater than wire diam = ok
+- rim diam is 50mm, coil OD is 7.5 mm
+- therefore coil curve diam is 50-2.5-3.75 = 43.75?
+- for coil insert add 10 percent for tight fit when 3d pritned mold?
+
+** calc rev count
+- one rev is one pitch?
+- Larc/revs = pitch, therefore Larc/pitch = revs
+- pitch is average pitch!!
+

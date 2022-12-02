@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       39485a7b-b3f1-4343-ba53-5570c4a375a1
+:END:
+#+title: scholarships
+#+filetags: :masc:
+
+* Current
+[[id:23fe5134-6a06-4e24-8e93-61cb2a6db80f][CGS-M Application]]
+
+* Future
+- MINDS scholarship initiative
