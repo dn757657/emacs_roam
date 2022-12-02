@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       fa48ddb4-12a5-4e81-982c-c41747b1597e
+:END:
+#+title: bmng5210_project
+#+filetags: :final:
+* Order List
+** Arduino
+- https://www.dfrobot.com/product-610.html
+  
+** Ultrasound Proximity Sensor
+- https://www.dfrobot.com/product-2173.html
+
+** RS Converter
+- https://www.dfrobot.com/product-1024.html
+  
+* Make
+** Phantoms 
+** Sensor Mount
+** GCODE
+
+* Do
+** Test Pull up Pin!
+
+* Resources
+** Pull up/Trigger
+- https://blog.prusa3d.com/how-to-create-beautiful-3d-print-timelapse-videos_29743/

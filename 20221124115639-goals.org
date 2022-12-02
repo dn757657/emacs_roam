@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5f6e1673-3b78-4a9f-b0d8-40d5d416b57a
+:END:
+#+title: goals
+#+filetags:

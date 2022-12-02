@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       23fe5134-6a06-4e24-8e93-61cb2a6db80f
+:END:
+#+title: CGS-M Application
+#+filetags: :application:masc:scholarship:
+
+* Outstanding
+
+** Research Abstract
+- one pager
+- aim
+- plan
+- state
+- other application?
+
+*** Body
+The ultimate aim of the proposed research is to exploit additive manufacturing techniques and modern engineering materials to achieve significant injury attenuation within ballistic armor system applications. This research is focused on the manufacture of Trauma Attenuating Backings (TABs), and primarily intends to explore the effects of dimensional adherence to the topolgy of the wearer, and other properties that are challenging to customize within traditional manufacturing systems. A three-fold research approach is outlined below.
+
+Exploration and qualification of material performance is an essential first step in completing the proposed reserach. Most importantly, selected materials must be compatible with existing Fused Deposition Modelling (FDM) additive manufacturing technology, and perform as exepcted within comprehensive dimensional accuracy testing. Dimensional accuracy of the TABs produced using this method is critical to quantification of injury attentuation given increased topological adherance to the wearer. Two important studies have been sythesized for qualifying both significant components of overall material performance. First, a series of challenging trials have been designed to explore the physical design limitations of part geometry given each proposed material and the FDM printing system employed. More specifically, these trials are designed to quantify geometric limitations such as overhang performance and minimum feature sizing in three dimensions throughout the performance range of the FDM system. Establishing the limitations of design geometry will facilitate a second qualification study intendning to explore the dimensional accuracy of manufactured components. Progressing from geometrically simple components, to complex surfaces designed to mirror human anatomy, an ultrasonic proximity measurement system is employed to measure the surface topology of manufactured components, subsequently the measured sufacicial geometry data can be compared to the intended input geometry.
+
+By applying the newly established undertsnading of material performance, reserach will progress to manufacturing more realistic TAB components. Ideally the a minimum of five diverse digital torso models will be accessible, or created for the purpose of studying injury attenuation given diverse wearer anatomies. Models be created via existing 3D Scanning technology within Dalhosuie University and volunteer participants. The huamn topology extracted from these models will be mirrored and assigned depth to create digital TAB models. Components will adhere to sizing limitations defined by the Ballistic Resistance of Body Armor NIJ Standard-0101.06 [ref APPENDIX C]. Completed models will be additively manufactured and thier proximity to the desired product will be assessed using systems established within the material qualification phase.
+
+Injury Attenuation - 
+how is injury quantified BABT
+NIJ models?
+translating modelling to standard
+
+** Research Summary
+- 1800 characters
+
+  
+
+** Transcripts
+- requested
+
+** Finish CV
+- employment
+- review?
+- conservatory
+
+** Suitability for Proposed Research (250w)
+
+*** Info
+Briefly describe how previous academic, research or leadership/extra-professional activities have uniquely prepared you for conducting the proposed research. Please note any factors which may not be apparent from previous responses which should be considered by the university when assessing your strengths in these areas. 
+
+*** Ideas
+- Equity of diverse parties
+- application outside of direct research
+- personal extra professional activities/experience
+  - electrical
+  - programming
+  - mecahnical
+- tie into outdoor passion?
+- small scale manufacturing
+
+*** Body
+Many roles and opportunities afforded me throughout both my academic, professional and extra-professional careers have well equipped me to excel in the present research role. Although the propsed reserahc poses a diverse array of significant challenges, my past experience provides a strong foothold to overcome them. By working in an automotive garage for nearly a decade I have developped exemplary mechanical and electrical trouble shooting skills essential to completing all practical aspects of the propsed research. Porgressing from simple repair and diagnostics, to complex drivetrain rebuilds, sensing integration and calibration, and performance engine management reprogramming. My role developping and testing new products for harsh marine environments has opened my eyes to effective research mangement and leadership strategies. Contributing to multiple automation initiatives within different industry roles has driven my knowledge of many programming languages such as Python, SQL and JS as well as how they are typically applied in data acquisition and management.  
+
+* Links & Standards
+
+** Presentation (research summary and transcripts)
+- https://www.nserc-crsng.gc.ca/ResearchPortal-PortailDeRecherche/standards_eng.asp
+
+* Questions
+- royal conservatory dates/honors?
+- funding current
+- employment (resume on laptop)
+- included diaphragm stuff?
+

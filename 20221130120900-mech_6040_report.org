@@ -1,0 +1,139 @@
+:PROPERTIES:
+:ID:       db23925b-0c15-4611-99b3-8198ff344c82
+:END:
+#+title: mech 6040 report
+#+filetags: :proj:masc:
+
+* Formatting
+- 10-15 page limit
+- title page
+- 8-12 body pages
+- 1 ref page
+
+* Title Page
+- Course
+- Project Title
+- Figure
+- Student Name
+- Date & Signature?
+
+* Main Body
+- walk reader through
+- dos and donts - present within each component blurb
+- problems and solutions - present wihtin each component blurb
+
+** Formatting
+- 10-13 pages
+- 1000-2000 word
+- 10-12 FIgures
+
+** How to
+
+*** Assembly
+- great place for exploded diagram idenifying components
+- lego axel lengths!
+  
+**** Rotating Assembly
+- assemble one flap wheel ot lego shaft
+- assemble second flap wheel and ensure both flap wheel holes align by temprarily mating both components
+- remove one flap wheel, noting its orientation on the lego axis
+- insert large spacer between both flap wheels and replace second flap wheel
+- insert individual flaps by exploiting flap compliance, flaps shoudl snap into place with low applied force
+- assemble the 11mm spacer outside the flap wheel assembly, followed by the worm folloer gear
+- assemble a 1mm spacer on the opposing side of the flap wheel assembly
+- to complete the rotating assembly, assemble a 2mm spacer outside the worm follower gear
+
+**** Shell
+- assemble the round bevel gear mount and worm gear mounts by pressing into the right shell half
+- where are they pressed in!
+- assemble the worm, straddled by two 1mm spacers between both worm mounts and peirce with a lego axle
+- stack the remaining bevel gear, 1mm spacer, c-bevel mount and handle, ensuring that the c-bevel mount ends curl towards the bevel gear
+- peice the stacked components with a lego axle
+- press the bevel gear assembly into the holes above and below the round bevel gear mount
+- assemble the 4mm spacer and one bevel gear respectively to the worm axle end nearest the bevel gear mount, ensuring bevel gear meshes with other
+
+**** Final
+- insert axle end or rotating assembly with worm follower gear into the centre hole in right side shell, careful to mate worm with worm follower gear
+- assmeble left shell half to opposing end of rotating assembly shaft
+- insert connectors into top and bottom, mating shell halves
+- insert top (long) and bottom (short) stops into shell cutouts near top and bottom
+
+** Build Steps
+- make small and expandable
+- note lego axis fits for each lego compatible component
+- define different fits/offsets in one place, concerning lego axle and typical components, to be referenced later in component blurbs
+
+*** Roating Flap Assembly
+
+**** Flaps/Flap Wheels
+- fittment in holes
+- interactions with other flaps
+- flap wheel spacing vs extrusion width
+- more flaps, smoother action
+- flap number origin (30 LCD with 12 and 6)
+- flap layering
+- thicknesses, too thick, too thin
+- font aspect driving flap shape
+
+**** Spacer
+- trailing for flap falling
+
+**** Worm Gear
+- 30 teeth, 30 flaps
+- clearances iterated to acheive minimal backlash/good feel
+
+*** Drivetrain
+
+**** Worm
+- overhang performance, teeth bias, did not affect performance
+- some cleanup required
+- taller/longer worms failed
+- video ref
+- loose lego fit for easy sliding
+- interated gear instead of worm as printing worm was challenging/did not always succeed
+
+**** Thrust bearings/spacers
+- run on smaller surface = reduced friction
+- gap is smaller for worm than total length of worm and spacers to limit looseness
+
+**** Bevels
+- failed initially due to lack of support outside
+- video ref
+- sizing minimal to round corner
+
+**** Handle
+- simple lego compatible handle
+- designed for tight fit
+
+*** Shell
+- designed for viewing, adequate regidity and easy assembly
+
+**** Connectors
+- shell connectors are a little shorter to keep them from coming out
+- tension the rotating assembly eliminating wobble
+
+**** Stops
+- initally designed to be adjustable
+- measured and installed in shell slots
+
+**** Sides
+- sides are fenestrated for easy viewing of assembly/motion
+- cutouts for connectors are offset slightly, non-interference fit
+
+**** Bevel holder and nub
+- initally did not work as planned with single support
+- added small support, interference press fit both components into side
+
+**** Worm Mounts
+- reduce complexity of shell sides
+- did not want to print rotational interfacing holes vertically due to warping
+- press fit/interference fit but still can be disassembled
+
+** Technical Drawings
+
+** Exploded Diagrams
+
+** Photos
+
+** Performance
+
