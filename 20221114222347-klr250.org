@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       959c44e8-99b0-437d-9d78-e784bfd8481e
+:END:
+#+title: KLR250
+#+filetags: :kawisaki:motorcycle:
+* Specs
+- http://klr250.blogspot.com/2011/03/klr250-torque-specs-and-other.html
+
+* Parts
+- https://www.kawasakipartshouse.com/oemparts/a/kaw/50a69ae6f870021678c64270/carburetor
+
+** Order
+
+*** Handlebar
+- mirror holder
+- mirror: 56001-1099 - not avail
+- handle: 46092-0554 - avail
+
+*** Carb
+- choke thing
+
+*** Cam
+- intake cam: 12044-1351, v expense
+- exhaust cam: 12044-5008, v expense
+
+*** Lights
+- Short Light Assy:  23037-0027 original , 23037-0028 shhort one, both avail
+
+*** Seat Bag
+- bolts

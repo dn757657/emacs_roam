@@ -4,11 +4,7 @@
 #+title: doman notes
 #+filetags: :doman:notes:questions:
 
-* Diaphragm
+* Next Meeting
 
-** Mold
-- material shrinkage?
-- design resources?
-- mold base?
-  
-** Materials
+** Literature Review
+- deadline?

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       73600a67-2169-4859-981b-d62e6b89e2f3
+:END:
+#+title: MECH3705
+#+filetags: :TA:masc:marking:
+
+Notes for MECH3705 TA position
+* Marking
+** LAB1
+*** G5
+- thermal diffusivity relationship seems corretc but following assumptions are not (where did they come from)
+- no COMSOL model
+- hardly any discussion, hard to tell if they understand
+-
+  
+*** G6
+- generally good, quite comprehensive
+- only one dataset
+
+

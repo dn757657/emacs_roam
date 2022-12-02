@@ -218,3 +218,56 @@
 - taking central value of each polynommial fit in the window
 - good at preserving peaks in measured signal if desired
 
+
+
+** Amps
+- hardware variations, diferent functions
+- amps contribute noise, important when selecting amps
+- typically outlined in noise INPUT, subjec to gain etc.
+- typically measuring sub nano measurements in imposible due to amp noise
+- dynamic range, ratio of the largest to the smallest signal that can be measured, accounts for all components in the system, measured in db, saturation down to noise floor
+
+*** Chaining
+- multiply gains
+- SNR, SNR in amp chain is determined by the initial amp due to chaining gains, noise becomes negligible after signal is multiplied by first amp!
+
+** Interference
+- always present, 60Hz, ~100 mV
+
+* Physical Systems
+- transucer -> low-pass -> high-pass -> amp -> ADC/digitizer -> signal processor
+
+** system design
+- smallest voltage signal measureable with available electronics: 1microvolt (limited by amplifier noise)
+- limit digitization noise to 1/10 RMS amplitude
+
+* Digitizing
+- once digitized data can no longer be manipulated/filtered etc (basically stuck with signal at that point)
+
+** Number systems
+- base ten, everyday
+- base 16, ABCDEF in addition to 0-9 digits, each increasign position is 16 times the indicator to the power of the position
+- base 2 (binary), needs complex interpretation
+
+** ADC
+- comparators circuits
+- max speed a few Giga-samples/sec
+- bit depth = steps of converted signal
+- range/bit depth =resolution
+- quantization noise, bounded, cant be more than plus ro minus one half resolution of adc bucket
+
+*** ADC methods
+- sucessive approximation, successive halving of range, honing in on true value, slow, limited range
+- flash, fast, expensive
+- sigma delta, high bit depth, very high res
+- pipeline?
+  
+*** Dithering
+- adding white guassian noise pre-digitization can actually improve SNR post digitization
+
+** Aliasing (errors in timing)
+- sampling rate higher than signal frequenncy (to prevent)
+- Nyquist requency
+- Anti Aliasing Filter, high frequency above nyquist plus buffer (20-30%)
+- Cut off frequncies above half the sampling rate (noise will aliase down into desired frequencies otherwise)
+- 
