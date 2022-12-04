@@ -1,7 +1,7 @@
-% Created 2022-12-01 Thu 10:21
+% Created 2022-12-02 Fri 16:30
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{longtable}
@@ -12,6 +12,7 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage[a4paper, portrait, margin=.75in]{geometry}
 \date{\today}
 \title{mech 6040 report}
 \hypersetup{
@@ -19,7 +20,7 @@
  pdftitle={mech 6040 report},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 28.1 (Org mode 9.5.2)}, 
+ pdfcreator={Emacs 28.0.91 (Org mode 9.5.2)}, 
  pdflang={English}}
 \begin{document}
 
@@ -28,7 +29,7 @@
 
 
 \section{Formatting}
-\label{sec:org7ed4d4c}
+\label{sec:org98177fe}
 \begin{itemize}
 \item 10-15 page limit
 \item title page
@@ -37,7 +38,7 @@
 \end{itemize}
 
 \section{Title Page}
-\label{sec:org4df4ac0}
+\label{sec:orgde1566f}
 \begin{itemize}
 \item Course
 \item Project Title
@@ -47,7 +48,7 @@
 \end{itemize}
 
 \section{Main Body}
-\label{sec:orgb091496}
+\label{sec:orgcfabd61}
 \begin{itemize}
 \item walk reader through
 \item dos and donts - present within each component blurb
@@ -55,7 +56,7 @@
 \end{itemize}
 
 \subsection{Formatting}
-\label{sec:orgdd1802a}
+\label{sec:org396b4de}
 \begin{itemize}
 \item 10-13 pages
 \item 1000-2000 word
@@ -63,10 +64,10 @@
 \end{itemize}
 
 \subsection{How to}
-\label{sec:orga8a0eb3}
+\label{sec:org0c80dba}
 
 \subsubsection{Assembly}
-\label{sec:org81558a2}
+\label{sec:orgdaad11d}
 \begin{itemize}
 \item great place for exploded diagram idenifying components
 \item lego axel lengths!
@@ -74,7 +75,7 @@
 
 \begin{enumerate}
 \item Rotating Assembly
-\label{sec:org02a0fe5}
+\label{sec:orgeadf4bb}
 \begin{itemize}
 \item assemble one flap wheel ot lego shaft
 \item assemble second flap wheel and ensure both flap wheel holes align by temprarily mating both components
@@ -87,7 +88,7 @@
 \end{itemize}
 
 \item Shell
-\label{sec:org18a545d}
+\label{sec:org2cd8040}
 \begin{itemize}
 \item assemble the round bevel gear mount and worm gear mounts by pressing into the right shell half
 \item where are they pressed in!
@@ -99,7 +100,7 @@
 \end{itemize}
 
 \item Final
-\label{sec:orgbd77c32}
+\label{sec:org7107c7f}
 \begin{itemize}
 \item insert axle end or rotating assembly with worm follower gear into the centre hole in right side shell, careful to mate worm with worm follower gear
 \item assmeble left shell half to opposing end of rotating assembly shaft
@@ -109,50 +110,106 @@
 \end{enumerate}
 
 \subsection{Build Steps}
-\label{sec:org10aaa21}
+\label{sec:org8b082a0}
+The driving design factors for this split flap display assembly are:
 \begin{itemize}
-\item make small and expandable
-\item note lego axis fits for each lego compatible component
-\item define different fits/offsets in one place, concerning lego axle and typical components, to be referenced later in component blurbs
+\item minimize overall size, whilst maximizing flap display area
+\item ensure displays can be assembled in a modular array for use as a clock
+\item smooth operation
+\item consistent flap actuation
 \end{itemize}
 
-\subsubsection{Roating Flap Assembly}
-\label{sec:org369ddd9}
+\subsubsection{TODO}
+\label{sec:org2cd26be}
+\begin{itemize}
+\item reference teds lego axle profile and include drawing
+\item units from Doman template
+\end{itemize}
+
+\subsubsection{Fits}
+\label{sec:orgd54c268}
+Wihtin the following component breakdowns are various references concerning part fits. These references are defined in the following tables [ref] and [ref] for use throughout the report. The offset column in table [ref] indicates the difference in dimensions for interfacing features, such that the hole feature is always larger in size than the mating feature. Similarly in table [ref] the offset column indicates the amount added to the stock LEGO axle profile [ref], in creating LEGO axle hole features. 
+
+Fits for 3D Printed Components
+\begin{center}
+\begin{tabular}{lrl}
+Fit Type & Offset [mm] & Description\\
+\hline
+Semi-permanent & 0 0 & Components can be assembled by hand with significant force applied, dissasmbly may require tools and result in permanent deformation\\
+Tight & 0.05-0.1 & Component can be assembled and dissassembled by hand with moderate force applied\\
+Sliding & 0.02-0.03 & Components can move freely relative to one another  freely\\
+\end{tabular}
+\end{center}
+
+Fits for LEGO Interfacting Components
+\begin{center}
+\begin{tabular}{lrl}
+Fit Type & Offset [mm] & Description\\
+\hline
+Fixed & 0.05-0.1 & Component does not slide easily on LEGO axle\\
+Intermediate & 0.1-0.2 & Component does not slide freely, but will slide easily on LEGO axle\\
+Sliding & 0.2+ & Component slides freely on LEGO axle\\
+\end{tabular}
+\end{center}
+
+
+\subsubsection{Roating Split Flap Assembly}
+\label{sec:org4877cca}
+The key driving factor of the assembly design lies within the rotating split flap assembly. Aspects of both the flaps, and the wheels housing the flaps limit the size and shape of the entire assembly. Critical design elements, challenges and solutions are outlined below.
 
 \begin{enumerate}
 \item Flaps/Flap Wheels
-\label{sec:org1b9af3e}
-\begin{itemize}
-\item fittment in holes
-\item interactions with other flaps
-\item flap wheel spacing vs extrusion width
-\item more flaps, smoother action
-\item flap number origin (30 LCD with 12 and 6)
-\item flap layering
-\item thicknesses, too thick, too thin
-\item font aspect driving flap shape
-\end{itemize}
+\label{sec:org6c111ff}
 
-\item Spacer
-\label{sec:orgd5fa406}
-\begin{itemize}
-\item trailing for flap falling
-\end{itemize}
+\begin{enumerate}
+\item Design Intent
+\label{sec:org5e2febe}
+The vertical to horizontal aspect ratio of the flaps are ultimately driven by the chosen font. Flaps are designed to be easily readable.
 
-\item Worm Gear
-\label{sec:org88e9ace}
-\begin{itemize}
-\item 30 teeth, 30 flaps
-\item clearances iterated to acheive minimal backlash/good feel
-\end{itemize}
+\item Design Limitations
+\label{sec:org9160ac4}
+The most challenging design contraint for the flap components is thickness. The dominant driver of flap thickness is the relationship with the distance between flap mounting holes. As the flaps are displayed, they must achieve a vertical position, given that the preceeding and proceeding flap are nearly vertical as well, the distance between flap mounting holes must accomodate two flaps oriented vertically and stacked face to face.
+The ideal split flap display minizes the central split clearance between vertically displayed flaps. This distance was iteratively optimized by observing flap intererence given various central split clearances.
+To ensure smooth actuation, each sucessive flap must be nearly vertical when the upper display flap falls, leaving it exposed. Any additional negative angle relative to the rotating direction will result in a suboptimal viewing angle for the successive flap. The height of the flap relief where the flap wheel is mounted must be minimized to maximize the verticality of each new flap displayed. The optimal geometry has been achived by designing zero clearance between the flap relief and flap moutning wheel when the flaps are oriented vertically.
+In minimziang the flap wheel diameter, the flap mounting hole diameters must also be minimized and subsequently, the flap axles dimensions must also be minimized. As the flap thickness limitations are noted above, the height of the flap axles are limited to two extrusion widths, or a single perimiter.
+
+\item Final Design
+\label{sec:org8396a82}
+The flaps are designed to be printed in multiple layers, comprising of black top and bottom layers with display numbers relieved, and a white core to create readiblity and contrast.
+\end{enumerate}
+
+\item Flap Wheels
+\label{sec:org3ecc293}
+
+\begin{enumerate}
+\item Final Design
+\label{sec:org46886c2}
+There are thirty flaps in the final design as assemblies with  lower flap counts exhibited dissatisfying flap actuation delay, and thirty is a common multiple of both ten and six, allowing the display to be reused in a time keeping array. LEGO axle hole fit is tight, such that they remain in place while assembling flaps.
+
+\item Design Intent
+\label{sec:orgc9383c6}
+The ideal flap wheel design minimizes flap wheel size, in turn maximizing the flap display area, and allows the flaps to rotate freely wihtin thier respective mounting holes. The flap wheel is critical to achieving smooth and consistent actuation of the split flap display. Designs progressed from thick flaps, and few flap mounting holes, to minimal optimized flap thickness and many flap mounting holes. Increasing the number of flap mounting holes, and subsequently the number of flaps, ensures the delay between the top flap rotating to the bottom flap position, and the next top flap in line reaching a vertical position is decreases, resulting in smoother operation.
+
+\item Design Limitations
+\label{sec:org9d7f82e}
+The proximity of flap moutning holes to one another is limited by PrusaSlicer. As a minimum of one perimeter must be included  for each component feature. The flap mounting hole size is limited by the flap axle size and flap thickness, as is described above in section [ref - Flaps design limitations]. Rigidity/thicklness anecdote.
+\end{enumerate}
+
+\item Central Spacer
+\label{sec:org7e8225b}
+The central spacer performs a critical role in creating smooth flap actuation. The centre spacer sets the distance between the opposing flap mounting wheels, ultimately creating clearance between the flap edges and flap wheels essential to free flap actuation. Five different length spacers were trialed, begginning with the nominal axle distance between flaps, and increasing in 0.1mm increments. The smallest of the spacers was selected for the final design, as flaps could actuate freely without binding, therefore additional flap clearance was not required. The central spacer central hole does not interface with the central LEGA axle, and therefore is designed with a sliding fit.
+
+\item Worm Follower Gear
+\label{sec:org5b580e1}
+The final worm gear design is a thin spur gear with a modulus of one, and thirty teeth. Thirty teeth is chosen to create a 30:1 gear ratio with the worm, resulting in one flap acutation per handle rotation. This simplified increases unit modularity. To prevent the need for a specialized worm follower gear, the thickness of the gear is limited. The gear teeth clearance, defined as the amount symmetrically relived from each tooth, and the mounting clearance, defined as the amount subtracted from the gear pitch diameter are itteratively reduced to achieve an optimal balance between system backlash and required input force. The final worm follower gear is designed with a tight LEGO fit axle hole feature for easy of assembly.
 \end{enumerate}
 
 \subsubsection{Drivetrain}
-\label{sec:org1e68af4}
+\label{sec:org11bcf12}
 
 \begin{enumerate}
 \item Worm
-\label{sec:org36dcff0}
+\label{sec:orgb443f4c}
 \begin{itemize}
 \item overhang performance, teeth bias, did not affect performance
 \item some cleanup required
@@ -163,14 +220,14 @@
 \end{itemize}
 
 \item Thrust bearings/spacers
-\label{sec:orgcd6b2c9}
+\label{sec:org85135ed}
 \begin{itemize}
 \item run on smaller surface = reduced friction
 \item gap is smaller for worm than total length of worm and spacers to limit looseness
 \end{itemize}
 
 \item Bevels
-\label{sec:orge8ee5af}
+\label{sec:org1e1236f}
 \begin{itemize}
 \item failed initially due to lack of support outside
 \item video ref
@@ -178,7 +235,7 @@
 \end{itemize}
 
 \item Handle
-\label{sec:orgc1eb78f}
+\label{sec:orgbaa630d}
 \begin{itemize}
 \item simple lego compatible handle
 \item designed for tight fit
@@ -186,42 +243,42 @@
 \end{enumerate}
 
 \subsubsection{Shell}
-\label{sec:org187371a}
+\label{sec:org52260d1}
 \begin{itemize}
 \item designed for viewing, adequate regidity and easy assembly
 \end{itemize}
 
 \begin{enumerate}
 \item Connectors
-\label{sec:org3b0b746}
+\label{sec:org04eae0c}
 \begin{itemize}
 \item shell connectors are a little shorter to keep them from coming out
 \item tension the rotating assembly eliminating wobble
 \end{itemize}
 
 \item Stops
-\label{sec:org6a6e6d1}
+\label{sec:org62caf10}
 \begin{itemize}
 \item initally designed to be adjustable
 \item measured and installed in shell slots
 \end{itemize}
 
 \item Sides
-\label{sec:orgeb58cc6}
+\label{sec:orge09ad20}
 \begin{itemize}
 \item sides are fenestrated for easy viewing of assembly/motion
 \item cutouts for connectors are offset slightly, non-interference fit
 \end{itemize}
 
 \item Bevel holder and nub
-\label{sec:orge660f46}
+\label{sec:org01972ce}
 \begin{itemize}
 \item initally did not work as planned with single support
 \item added small support, interference press fit both components into side
 \end{itemize}
 
 \item Worm Mounts
-\label{sec:org38eecd0}
+\label{sec:org4f0e220}
 \begin{itemize}
 \item reduce complexity of shell sides
 \item did not want to print rotational interfacing holes vertically due to warping
@@ -230,18 +287,14 @@
 \end{enumerate}
 
 \subsection{Technical Drawings}
-\label{sec:orge357887}
+\label{sec:orgbdc7252}
 
 \subsection{Exploded Diagrams}
-\label{sec:orga59c97c}
+\label{sec:org9348821}
 
 \subsection{Photos}
-\label{sec:org7d65d02}
+\label{sec:orgb6f5bb7}
 
 \subsection{Performance}
-\label{sec:orgf67a789}
+\label{sec:org90bc470}
 \end{document}
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
