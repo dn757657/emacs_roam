@@ -16,10 +16,30 @@
 * Make
 ** Phantoms 
 ** Sensor Mount
+- mount to fan? 32x32 mounting
+- need hole/fast sizing
+- print w/ support
+  
 ** GCODE
+- move
+- pull up
+- wait
+- pull down
+- wait
+- move
 
 * Do
 ** Test Pull up Pin!
+** get data from sensor
+- live output may be hlepful
+- 12v supply via prusa or plug in or lab supply (temporary but less work)
+  
+** report
+** presentation
+** compare point cloud to real?
+** phantoms
+- modelled
+- print!
 
 * Resources
 ** Pull up/Trigger
