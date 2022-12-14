@@ -3,6 +3,21 @@
 :END:
 #+title: bmng5210_project
 #+filetags: :final:
+
+* plan
+
+** monday night
+- staircase scans x2
+- overnight organic scan
+- real surface to pointcloud
+
+** tuesday
+- real surface to trial rmse
+- surface trial variance
+- organic scan 2
+
+** tuesday night 
+
 * Order List
 ** Arduino
 - https://www.dfrobot.com/product-610.html
@@ -13,6 +28,8 @@
 ** RS Converter
 - https://www.dfrobot.com/product-1024.html
   
+* DESC
+
 * Make
 ** Phantoms 
 ** Sensor Mount
@@ -73,21 +90,29 @@ M42 S0 P20 ;Untrigger
 - only need to specifiy axis that is being moved!
   G1 X Y Z
 
+* TEST
+- analyze variance?
+- basic statistical analysis
+
+** staircase
+
+** lines array
+
+** organic
+
+** baseline (just plate)
+
 * Do
-** Test Pull up Pin!
-** get data from sensor
-- live output may be hlepful
-- 12v supply via prusa or plug in or lab supply (temporary but less work)
-  
-** Arduino Code
-*** Sensor Code - done
-*** Sensor processing
-- remove garbage
-- average points
   
 ** report
 ** presentation
-** compare point cloud to real?
+** compare point cloud to real
+- rmse?
+*** open3d
+- ply to pointcloud, extract to same format as recorded
+- compare rmse (adherance to actual phantom)
+- variance between exp trials
+
 ** phantoms
 - modelled
 - print!

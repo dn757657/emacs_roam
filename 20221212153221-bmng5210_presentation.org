@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       08e738fb-9106-4dc8-b887-b3dbea361619
+:END:
+#+title: bmng5210_presentation
+#+filetags: :project:final:
+
+* outline
+- system outline (diagram?)
+- how
+  - data processing
+  - making stuff
+  - code
+- tests
+  - purpose
+  - results (filtered and unfiltered)
