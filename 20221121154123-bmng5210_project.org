@@ -2,7 +2,7 @@
 :ID:       fa48ddb4-12a5-4e81-982c-c41747b1597e
 :END:
 #+title: bmng5210_project
-#+filetags: :final:
+#+filetags: :final:bmng5210:
 
 * plan
 

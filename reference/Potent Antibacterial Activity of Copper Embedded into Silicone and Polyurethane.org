@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8edd75a3-4e2e-4bad-9f66-bbbac1cd9488
+:ROAM_REFS: cite:sehmi_potent_2015
+:END:
+#+title: Potent Antibacterial Activity of Copper Embedded into Silicone and Polyurethane
+#+filetags: :ref:
+

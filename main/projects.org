@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       c4bac4ef-6303-4e4d-8077-b5b82a554bf5
+:END:
+#+title: projects
+#+filetags: :repository:list:ideas:
+
+*  Active
+- must be atomic, keep em small
+
+** [[id:4ff3a34b-d718-47af-bc3f-4a109c3d9641][bmng5230]]
+
+** TODO [[id:b463589d-bed6-43f6-89ce-ba4cda074790][personal_server]]
+
+** TODO [[id:64b4de03-118d-42ef-a023-06eb566c1ec4][ivy-bibtex]]
+
+** TODO [[id:b20706c5-4fa7-49c7-a7cc-6f776b430961][tasks_management]]
+
+** TODO [[id:73c81748-e487-4d36-959b-3ba3ee203720][research outline]]
+
+** TODO [[id:48bf4d94-fa06-460c-b07b-287708409994][literature_review]]
+
+** TODO [[id:cbc5a948-e09a-442c-b5b2-eb839de26c84][printing_box]]
+
+** TODO [[id:b6f0f0da-376e-487d-a922-f76f1b9316c7][mech3500]]
+
+** TODO [[id:c1e7d99b-5b3d-46e3-9cdb-3c2ea9b2cab3][diaphragm_contract]]
+
+*  Ideas
+
+** TODO [[id:42702a38-cf84-4a23-a9c0-cca195049e79][latex_config]]
+- break this down
+
+** TODO File cleanup
+- post server life
+
+** TODO [[id:18297863-7f75-459d-9d7b-83e7c90ee8e0][calendar_sync]]
+- server based calendar
+
+** TODO [[id:95c89115-bebd-42b0-8894-82257aa1a4ab][capacity_analysis]]
+
+** TODO banking pipeline revisions
+- simpler but similar
+- basic documentation
+- accounts vs flows paradigm revisited
+
+** TODO banking analytics

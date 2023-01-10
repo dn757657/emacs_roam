@@ -14,3 +14,10 @@
 - dont for get to alt-o bb the ivy way
 - manage mostly through alt-o
 
+* Issues
+- cant open links when linked in org which sucks (org open global)
+- ivy bibtex menu does not indicate type or if has notes properly
+- doesnt open pdy properly from ivy bibtex menu
+- doesnt use ref template/capture template when taking notes - maybe look at system crafters vid?
+- no self cite/link to document within ref capture template (would be nice)
+- citing in latex docs - really part of latex pipeline projectsc

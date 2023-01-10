@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e53e2d0d-88de-4261-8426-a2036e502f35
+:END:
+#+title: calendar_config
+#+filetags: :process:emacs:
+
+* refs
+[[id:18297863-7f75-459d-9d7b-83e7c90ee8e0][calendar_sync]]
+[[id:95c89115-bebd-42b0-8894-82257aa1a4ab][capacity_analysis]]

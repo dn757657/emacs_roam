@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       42702a38-cf84-4a23-a9c0-cca195049e79
+:END:
+#+title: latex_config
+#+filetags:config:
+
+* refs
+[[id:3e1740f5-fc1e-4725-8a51-c262fe013ad7][auctex basics]]

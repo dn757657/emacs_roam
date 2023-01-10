@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       73c81748-e487-4d36-959b-3ba3ee203720
+:END:
+#+title: research outline
+#+filetags: :masc:

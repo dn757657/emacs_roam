@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       4ff3a34b-d718-47af-bc3f-4a109c3d9641
+:END:
+#+title: bmng5230
+#+filetags: :repo:course:
+
+* scratch
+- devise time for weekly readings
+- time for assignmentds
+  
+* deadlines
+- last class <2023-03-29 Wed> (tentative)
+- project proposal <2023-02-16 Thu>
+- interim project presentation <2023-03-13 Mon>
+- final presentation and report <2023-04-19 Wed>
+
+* course structure
+- readings and power point every week
+- assignments? 6+ erratic time structure?
+
+* Syllabus [cite:@OverviewBMNG5230Biomedicala]
+
+* Project [cite:@BMNG5230ProjectGuidelines]

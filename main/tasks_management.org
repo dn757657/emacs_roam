@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       b20706c5-4fa7-49c7-a7cc-6f776b430961
+:END:
+#+title: tasks_management
+#+filetags: :process:scheduling:
+
+* scratch
+- 
+
+* Process
+
+** tasks.org
+- enter tasks via capture templates as tasks
+  - require duration param (EFFORT C-c C-x e)
+  - require deadline
+- organize (refile C-c C-w)  into project headings using indentation to indicate parent/child relationship
+
+*** notes
+- limit tasks to deliverables, otherwise dump in meetings
+
+** via agenda
+- organize task states using workflow view
+- organize scheudling using agenda dashboard view (or automation eventually? - [[id:838f559f-6696-4838-b666-269a3c82d926][task prioritization]])
+

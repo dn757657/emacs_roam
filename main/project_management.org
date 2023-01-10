@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       670a8dec-ba68-4daa-ab2f-e579e1b77251
+:END:
+#+title: project_management
+#+filetags: :process:
+
+* Files
+
+** ideas file
+- houses new project ideas, maybe some links found prior to creating project
+
+** project file
+- is this required?
+- pull in existing knowledge from roam using links (insert)
+- general repository of ideas for each project
+
+* Tasks
+- make one major task with end deadline/goal deadline for project
+- indent tasks under main project task to indicate parent relationship

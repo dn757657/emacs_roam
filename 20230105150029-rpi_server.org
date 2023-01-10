@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       f2dc604e-c5c9-4cfc-86b7-5540ad668e0f
+:END:
+#+title: Rpi server
+#+filetags:
+
+* Purpose
+- host calendar and anything that cant be pushed to github!
+
+* Design
+
+** Case
+- https://shop.inux3d.com/en/home/81-124-terrapi-evo.html#/11-color-black
+- adapter also?
+- case seems to bold right to drive? compatible?
+- what size is drive currently?
+
+
+- https://deskpi.com/products/deskpi-pro-for-raspberry-pi-4?variant=36537149030556
+

@@ -2,7 +2,7 @@
 :ID:       08e738fb-9106-4dc8-b887-b3dbea361619
 :END:
 #+title: bmng5210_presentation
-#+filetags: :project:final:
+#+filetags: :bmng5210:project:final:
 
 * outline
 - system outline (diagram?)

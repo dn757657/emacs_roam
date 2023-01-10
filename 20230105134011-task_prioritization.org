@@ -1,0 +1,86 @@
+:PROPERTIES:
+:ID:       838f559f-6696-4838-b666-269a3c82d926
+:END:
+#+title: task prioritization
+#+filetags: :organization:auto:task:
+
+* scratch
+- assign time based deadlines? (date & time)
+- inherit deadlines from tasks?
+- incorporate all other items
+- add duration to tasks
+- never schedule tasks on scale smaller than day, tasks are scheduled for the day, user figures where to put them in the day
+
+* Automation
+** Flow
+
+*** Assign Values
+- get deadline and perform days remaining comparison
+- effort scale 0-10 assigned by user, read and parse
+- read and parse duration argument assigned by user
+
+*** Assign Weights
+- deadline most important
+- then duration?
+- then effort?
+
+*** Minimize
+
+** Values
+
+*** Minimize
+
+**** Deadline
+- minimize inverse of difference between scheduled date and deadline date
+- what if no deadline assigned? 
+
+**** Total Duration
+- ideally the total duration of tasks each day is minimized
+
+**** time spent outside of central desired working window
+- or centre times around an ideal time
+
+* Manual
+
+** Flow
+- how to handle parent child relationshsips?
+- daily review is essential
+- indent child tasks vs parents?
+
+*** Rules
+- submit new tasks vie wcapture templates as TODO
+- review, complete and refile under ready or backlog?
+
+*** Tasks File
+- how to structure effectively - one top level task or heading with deadline
+  - inherit deadlines form top level task, all tasks under project are indented to indicate parent/child hierarchy
+
+**** Structure
+- best is likely very flat
+- project as top level heading so we can refile to headings
+
+** Analysis
+- analyze daily hours and effort of manually organized items
+
+** Code Workflow
+- uptake tasks from tasks file
+  - may need to incorporate calendar eventually if importing from shared calendars
+- parse each subtree?
+- compute scheduled
+
+*** import from tasks
+- may need to incorporate calendar eventually if importing from shared calendars
+
+*** parse task trees
+
+**** required params in task
+- duration estimation
+  - ideal that time to finish analytic is included (switch to active, switch to done?)
+- deadline
+  - if no time infer midnight
+    
+*** compute scheduled param
+- using parsed tree data trace tree each tree to top (perhaps by level) and assign scheduled
+
+*** how to assign scheduled
+- minimize params see above

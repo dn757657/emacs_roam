@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       95c89115-bebd-42b0-8894-82257aa1a4ab
+:END:
+#+title: capacity_analysis
+#+filetags:config:scheduling:automation:
+
+* idk 

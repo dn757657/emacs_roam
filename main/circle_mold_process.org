@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4110e530-a672-442d-9685-604fa2cd1e94
+:END:
+#+title: circle_mold_process
+#+filetags: :diaphragm:masc:
+
+* process
+- spray molds

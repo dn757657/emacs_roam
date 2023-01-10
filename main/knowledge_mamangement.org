@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6d5aa939-7c58-4223-9d07-714debae1ef6
+:END:
+#+title: knowledge_management
+#+filetags: :process:
+
+* Capture
+- ensure atomic notes
+
+** fleeting
+- slipbox template for fleeting thoughts
+- review and empty daily

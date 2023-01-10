@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c1e7d99b-5b3d-46e3-9cdb-3c2ea9b2cab3
+:END:
+#+title: diaphragm_contract
+#+filetags: :doman:masc:contract:iud:
+
+* refs
+[[id:70ecfbb1-d2c6-4525-9727-3644343c8318][circle mold design]]
+[[id:282e3869-0d4f-44c7-b1d3-a8ce1d407824][diaphragm testing]]
+[[id:4110e530-a672-442d-9685-604fa2cd1e94][circle_mold_process]]

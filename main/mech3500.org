@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       b6f0f0da-376e-487d-a922-f76f1b9316c7
+:END:
+#+title: mech3500
+#+filetags: :ta:masc:
+
+* Hours Breakdown
+- 110
+
+** tutorials - 33
+- 11 total
+- 1 hour weekly for prep
+  - look at assignment
+  - read
+  - familiarize with content

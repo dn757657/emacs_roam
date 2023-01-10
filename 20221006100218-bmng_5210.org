@@ -1,8 +1,8 @@
 :PROPERTIES:
 :ID:       2d977fe6-8a01-47e0-a7ac-8658e8917b51
 :END:
-#+title: bmng 5210
-#+filetags: :fucklabview:biomed:masc:
+#+title: bmng5210_notes
+#+filetags: :fucklabview:biomed:masc:bmng5210:
 
 * Signals
 - something as a func of time

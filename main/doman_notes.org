@@ -1,3 +1,4 @@
+
 :PROPERTIES:
 :ID:       acf6710f-0858-499b-87d2-de9a0d5260a5
 :END:
@@ -5,6 +6,10 @@
 #+filetags: :doman:notes:questions:
 
 * Next Meeting
-
-** Literature Review
-- deadline?
+- literature review deadline
+- finding peter is annoying
+- printing
+- research plan overall?
+  - modelling
+  - validaiton?
+  - not sure if im going to get there!

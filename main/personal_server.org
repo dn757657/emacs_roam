@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b463589d-bed6-43f6-89ce-ba4cda074790
+:END:
+#+title: personal_server
+#+filetags:fileing:
+
+* refs
+[[id:f2dc604e-c5c9-4cfc-86b7-5540ad668e0f][Rpi server
+]]
+* Notes
+- start with laptop
+- ensure network accessibility
+- transistion to pi with spare drive
+- organize files (other proj)

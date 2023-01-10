@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7d0ea66b-7f71-45c8-8ac0-00a5734f39e9
+:ROAM_REFS: cite:URM14RS485PrecisionUltrasonic
+:END:
+#+title: URM14-RS485 Precision Ultrasonic Sensor(200KHz) Wiki - DFRobot
+#+filetags: :ref:
+this is a test note that I am not likely going to use

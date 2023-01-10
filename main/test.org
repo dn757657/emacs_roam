@@ -4,3 +4,9 @@
 #+title: test
 #+filetags:
 
+testing citations
+
+[cite:@kuanHowTakeSmart]
+
+[cite:@URM14RS485PrecisionUltrasonic]
+

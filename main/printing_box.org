@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cbc5a948-e09a-442c-b5b2-eb839de26c84
+:END:
+#+title: printing_box
+#+filetags:masc:reserach:
+
+* refs
+[[id:05cea809-8356-4f84-bca7-a6a14e68c50a][box design]]
+[[id:50d2a39d-8d2c-47fb-af15-d5d8e165dbea][printing space]] 
+[[id:40c5cd72-9b1a-4ed5-89a4-34802d9e247f][printing ventilation]]
+
+* notes
+- go fucking talk to peter - emailed! <2023-01-09 Mon>
