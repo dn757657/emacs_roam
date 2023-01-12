@@ -9,8 +9,6 @@
 
 ** [[id:4ff3a34b-d718-47af-bc3f-4a109c3d9641][bmng5230]]
 
-** TODO [[id:b463589d-bed6-43f6-89ce-ba4cda074790][personal_server]]
-
 ** TODO [[id:64b4de03-118d-42ef-a023-06eb566c1ec4][ivy-bibtex]]
 
 ** TODO [[id:b20706c5-4fa7-49c7-a7cc-6f776b430961][tasks_management]]
@@ -25,13 +23,15 @@
 
 ** TODO [[id:c1e7d99b-5b3d-46e3-9cdb-3c2ea9b2cab3][diaphragm_contract]]
 
-*  Ideas
+*  Ideas (backlog)
 
 ** TODO [[id:42702a38-cf84-4a23-a9c0-cca195049e79][latex_config]]
 - break this down
 
 ** TODO File cleanup
 - post server life
+- check one drives
+- check g drive
 
 ** TODO [[id:18297863-7f75-459d-9d7b-83e7c90ee8e0][calendar_sync]]
 - server based calendar
@@ -44,3 +44,5 @@
 - accounts vs flows paradigm revisited
 
 ** TODO banking analytics
+** [[id:b463589d-bed6-43f6-89ce-ba4cda074790][personal_server]]
+
