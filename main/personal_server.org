@@ -5,10 +5,18 @@
 #+filetags:fileing:
 
 * refs
-[[id:f2dc604e-c5c9-4cfc-86b7-5540ad668e0f][Rpi server
-]]
+[[id:f2dc604e-c5c9-4cfc-86b7-5540ad668e0f][Rpi server]]
+https://www.youtube.com/watch?v=y4dtcr2NL5M&ab_channel=LearnLinuxTV
+
+* How To
+- install ubuntu server on system or create VM
+- ensure network connection/interface is bridged
+- mount any required drives you want to use
+- assign static ip
+- point port 80 on router to static ip
+- point domain to you public ip
+- public ip changes, can use some sort of dynamic dns script from afraid.org to update automatically (aternatively than paying for a domain and a static ip)
+
 * Notes
-- start with laptop
-- ensure network accessibility
-- transistion to pi with spare drive
-- organize files (other proj)
+- server is just like a pc where you run different systems on the server such as databases and cloud storage systems, which are like programs
+- need to port forward port 80 (http) to access home network from other networks

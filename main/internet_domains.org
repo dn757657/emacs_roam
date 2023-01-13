@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       80b6e463-32fa-44b8-82c1-39b346505bc5
+:END:
+#+title: internet domains
+#+filetags: :dns:network:server:
+
+* basics
+- subnet addresses are addresses divided wihtin a network 256 per gateway (first three numbers are same)
+- gateway is the ip used by local devices to access the outside world (other networks) has to do with router
+- your public facing ip changes roughly weekly
+- to access outside networks need to forward router port 80 (http) to the static ip of the server (or device you want to access)
+- domain can be assigned to your public facing ip, and since the http port points to a specific device, the domain will also point to it
+- to ensure server access you need to either
+  - get a static IP (paid)
+  - or update your domain/subdomain (afraid.org) to point to your pubic facing IP everytime it changes
